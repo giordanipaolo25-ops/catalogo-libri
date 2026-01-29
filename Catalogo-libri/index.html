@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catalogo libri di psicologia</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 980px; margin: auto; padding: 20px; line-height: 1.35; }
+    h1 { margin: 0 0 8px 0; font-size: 28px; }
+    .subtitle { margin: 0 0 10px 0; color:#222; }
+    .email { margin: 0 0 18px 0; font-weight: 800; }
+    .email a { color: inherit; text-decoration: none; border-bottom: 1px dotted #888; }
+    .email a:hover { border-bottom-style: solid; }
+
+    .row { display:flex; gap:10px; align-items:center; }
+    input { flex: 1; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 10px; }
+    .btn {
+      padding: 11px 12px; border-radius: 10px; border: 1px solid #bbb; background:#fff; cursor:pointer; font-weight:700;
+      white-space: nowrap;
+    }
+    .btn:hover { border-color:#111; }
+
+    .section-title { margin: 16px 0 8px 0; font-size: 14px; font-weight: 900; color: #333; }
+    .chips { display:flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .chip {
+      border: 1px solid #bbb; background:#fff; padding: 7px 10px; border-radius: 999px;
+      cursor: pointer; font-size: 14px;
+    }
+    .chip:hover { border-color:#111; }
+    .chip.active { border-color:#111; font-weight: 900; }
+
+    .results-head { display:flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 6px; }
+    .muted { color:#666; font-size: 13px; }
+    .book { border-bottom: 1px solid #eee; padding: 10px 0; }
+    .meta { color:#444; margin-top: 2px; }
+    .sold { color:#888; }
+    .badge { display:inline-block; margin-top: 6px; font-weight: 900; }
+  </style>
+</head>
+<body>
+
+  <h1>Catalogo libri di psicologia</h1>
+
+  <p class="subtitle">
+    I libri provengono dalla biblioteca di due psichiatri. Alcuni libri sono sottolineati, ma la maggior parte sono in ottime condizioni.<br>
+    Scrivimi per avere informazioni più dettagliate sui volumi e su come comprarli!
+  </p>
+
+  <p class="email">
+    <a href="mailto:giordani.paolo25@gmail.com">giordani.paolo25@gmail.com</a>
+  </p>
+
+  <div class="row">
+    <input id="search" placeholder="Cerca per autore, titolo o editore…" />
+    <button class="btn" id="resetBtn" type="button">Reset</button>
+  </div>
+
+  <div class="section-title">Editori</div>
+  <div class="chips" id="editorChips"></div>
+
+  <div class="section-title">Autori</div>
+  <div class="chips" id="authorChips"></div>
+
+  <div class="results-head">
+    <div class="section-title" style="margin:18px 0 8px 0;">Risultati</div>
+    <div class="muted" id="status"></div>
+  </div>
+  <div id="list"></div>
+
+<script>
+  // CSV parser robusto: gestisce virgole dentro virgolette e doppi apici "".
+  function parseCSV(text) {
+    const rows = [];
+    let row = [];
+    let field = '';
+    let inQuotes = false;
+
+    for (let i = 0; i < text.length; i++) {
+      const c = text[i];
+      const next = text[i + 1];
+
+      if (c === '"') {
+        if (inQuotes && next === '"') { field += '"'; i++; }
+        else { inQuotes = !inQuotes; }
+        continue;
+      }
+
+      if (!inQuotes && c === ',') {
+        row.push(field);
+        field = '';
+        continue;
+      }
+
+      if (!inQuotes && (c === '\n' || c === '\r')) {
+        if (c === '\r' && next === '\n') i++;
+        row.push(field);
+        field = '';
+        if (row.some(x => String(x).trim() !== '')) rows.push(row);
+        row = [];
+        continue;
+      }
+
+      field += c;
+    }
+
+    row.push(field);
+    if (row.some(x => String(x).trim() !== '')) rows.push(row);
+    return rows;
+  }
+
+  function sortIT(arr) {
+    return arr.sort((a,b) => a.localeCompare(b, "it", { sensitivity: "base" }));
+  }
+
+  function norm(s) { return String(s || "").trim(); }
+
+  function bookHTML(b) {
+    const sold = norm(b.disponibile).toLowerCase() === "no";
+    const anno = b.anno ? `(${b.anno})` : "";
+    const prezzo = b.prezzo ? `💶 ${b.prezzo} €` : "";
+    return `
+      <div class="book ${sold ? "sold" : ""}">
+        <div><strong>${b.titolo}</strong></div>
+        <div class="meta">${b.autore} — ${b.editore} ${anno}</div>
+        ${prezzo ? `<div class="meta">${prezzo}</div>` : ``}
+        <div class="badge">${sold ? "🔴 Venduto" : "🟢 Disponibile"}</div>
+      </div>
+    `;
+  }
+
+  let books = [];
+  let activeEditor = "";
+  let activeAuthor = "";
+
+  const editorChips = document.getElementById("editorChips");
+  const authorChips = document.getElementById("authorChips");
+  const list = document.getElementById("list");
+  const status = document.getElementById("status");
+  const search = document.getElementById("search");
+  const resetBtn = document.getElementById("resetBtn");
+
+  function clearActiveChips(container) {
+    [...container.querySelectorAll(".chip")].forEach(b => b.classList.remove("active"));
+  }
+
+  function setStatusText(txt) {
+    status.textContent = txt || "";
+  }
+
+  // “contengono quell’autore/editore”: uso includes (più tollerante) anziché match esatto
+  function render() {
+    const q = norm(search.value).toLowerCase();
+
+    const filtered = books.filter(b => {
+      if (activeEditor && !b.editore.toLowerCase().includes(activeEditor.toLowerCase())) return false;
+      if (activeAuthor && !b.autore.toLowerCase().includes(activeAuthor.toLowerCase())) return false;
+
+      if (q) {
+        const hay = `${b.autore} ${b.titolo} ${b.editore}`.toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+      return true;
+    });
+
+    list.innerHTML = "";
+    if (filtered.length === 0) {
+      list.innerHTML = `<div class="muted">Nessun risultato.</div>`;
+      const parts0 = [];
+      if (activeEditor) parts0.push(`Editore: ${activeEditor}`);
+      if (activeAuthor) parts0.push(`Autore: ${activeAuthor}`);
+      if (q) parts0.push(`Ricerca: “${search.value}”`);
+      setStatusText(parts0.join(" • "));
+      return;
+    }
+
+    filtered.forEach(b => list.insertAdjacentHTML("beforeend", bookHTML(b)));
+
+    const parts = [];
+    if (activeEditor) parts.push(`Editore: ${activeEditor}`);
+    if (activeAuthor) parts.push(`Autore: ${activeAuthor}`);
+    if (q) parts.push(`Ricerca: “${search.value}”`);
+    parts.push(`${filtered.length} risultati`);
+    setStatusText(parts.join(" • "));
+  }
+
+  function buildChips() {
+    const editors = sortIT([...new Set(books.map(b => b.editore).filter(Boolean))]);
+    const authors = sortIT([...new Set(books.map(b => b.autore).filter(Boolean))]);
+
+    editorChips.innerHTML = "";
+    editors.forEach(ed => {
+      const btn = document.createElement("button");
+      btn.className = "chip";
+      btn.textContent = ed;
+      btn.type = "button";
+      btn.onclick = () => {
+        activeEditor = ed;
+        activeAuthor = "";
+        clearActiveChips(authorChips);
+        clearActiveChips(editorChips);
+        btn.classList.add("active");
+        render();
+      };
+      editorChips.appendChild(btn);
+    });
+
+    authorChips.innerHTML = "";
+    authors.forEach(au => {
+      const btn = document.createElement("button");
+      btn.className = "chip";
+      btn.textContent = au;
+      btn.type = "button";
+      btn.onclick = () => {
+        activeAuthor = au;
+        activeEditor = "";
+        clearActiveChips(editorChips);
+        clearActiveChips(authorChips);
+        btn.classList.add("active");
+        render();
+      };
+      authorChips.appendChild(btn);
+    });
+  }
+
+  function resetAll() {
+    activeEditor = "";
+    activeAuthor = "";
+    search.value = "";
+    clearActiveChips(editorChips);
+    clearActiveChips(authorChips);
+    render();
+  }
+
+  // IMPORTANTE: qui legge il catalogo intero nuovo
+  fetch("catalogo_libri_sito.csv", { cache: "no-store" })
+    .then(r => r.text())
+    .then(text => {
+      const rows = parseCSV(text);
+      if (rows.length < 2) throw new Error("CSV vuoto");
+
+      const header = rows[0].map(h => norm(h).toLowerCase());
+      const idx = (name) => header.indexOf(name);
+
+      const iAutore = idx("autore");
+      const iTitolo = idx("titolo");
+      const iEditore = idx("editore");
+      const iAnno = idx("anno");
+      const iPrezzo = idx("prezzo");
+      const iDisp = idx("disponibile");
+
+      books = rows.slice(1).map(r => ({
+        autore: norm(r[iAutore]),
+        titolo: norm(r[iTitolo]),
+        editore: norm(r[iEditore]),
+        anno: norm(r[iAnno]),
+        prezzo: norm(r[iPrezzo]),
+        disponibile: norm(r[iDisp] || "sì")
+      })).filter(b => b.autore || b.titolo || b.editore);
+
+      buildChips();   // <-- qui crea TUTTI i nomi
+      render();
+    })
+    .catch(err => {
+      list.innerHTML = `<div class="muted">Errore nel caricamento del catalogo. Controlla che <b>catalogo_libri_sito.csv</b> sia nella stessa cartella del sito.</div>`;
+      setStatusText(String(err));
+    });
+
+  search.addEventListener("input", render);
+  resetBtn.addEventListener("click", resetAll);
+</script>
+
+</body>
+</html>
