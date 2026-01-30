@@ -8,9 +8,10 @@
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 980px; margin: auto; padding: 20px; line-height: 1.35; }
     h1 { margin: 0 0 8px 0; font-size: 28px; }
     .subtitle { margin: 0 0 10px 0; color:#222; }
-    .email { margin: 0 0 18px 0; font-weight: 800; }
+    .email { margin: 0 0 14px 0; font-weight: 800; }
     .email a { color: inherit; text-decoration: none; border-bottom: 1px dotted #888; }
     .email a:hover { border-bottom-style: solid; }
+    .smallnote { margin: 0 0 18px 0; color:#444; }
 
     .row { display:flex; gap:10px; align-items:center; }
     input { flex: 1; padding: 12px; font-size: 16px; border: 1px solid #ccc; border-radius: 10px; }
@@ -21,20 +22,29 @@
     .btn:hover { border-color:#111; }
 
     .section-title { margin: 16px 0 8px 0; font-size: 14px; font-weight: 900; color: #333; }
-    .chips { display:flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+    .chips { display:flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
     .chip {
-      border: 1px solid #bbb; background:#fff; padding: 7px 10px; border-radius: 999px;
-      cursor: pointer; font-size: 14px;
+      border: 1px solid #bbb; background:#fff; padding: 6px 9px; border-radius: 999px;
+      cursor: pointer; font-size: 13px;
     }
     .chip:hover { border-color:#111; }
     .chip.active { border-color:#111; font-weight: 900; }
 
-    .results-head { display:flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 6px; }
+    .moreRow { display:flex; gap:10px; align-items:center; margin-bottom: 14px; }
     .muted { color:#666; font-size: 13px; }
-    .book { border-bottom: 1px solid #eee; padding: 10px 0; }
+
+    .results-head { display:flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-top: 10px; }
+    .book { border-bottom: 1px solid #eee; padding: 12px 0; }
     .meta { color:#444; margin-top: 2px; }
     .sold { color:#888; }
     .badge { display:inline-block; margin-top: 6px; font-weight: 900; }
+
+    .buyRow { margin-top: 8px; display:flex; gap:10px; flex-wrap: wrap; align-items:center; }
+    .mailbtn {
+      display:inline-block; padding: 8px 10px; border-radius: 10px; border: 1px solid #bbb; background:#fff;
+      cursor:pointer; font-weight:800; font-size: 13px; text-decoration:none; color: inherit;
+    }
+    .mailbtn:hover { border-color:#111; }
   </style>
 </head>
 <body>
@@ -49,26 +59,41 @@
   <p class="email">
     <a href="mailto:giordani.paolo25@gmail.com">giordani.paolo25@gmail.com</a>
   </p>
+  <p class="smallnote">Foto disponibili su richiesta.</p>
 
+  <!-- Ricerca + Reset -->
   <div class="row">
     <input id="search" placeholder="Cerca per autore, titolo o editore…" />
     <button class="btn" id="resetBtn" type="button">Reset</button>
   </div>
 
-  <div class="section-title">Editori</div>
-  <div class="chips" id="editorChips"></div>
-
-  <div class="section-title">Autori</div>
-  <div class="chips" id="authorChips"></div>
-
+  <!-- RISULTATI SUBITO SOTTO -->
   <div class="results-head">
     <div class="section-title" style="margin:18px 0 8px 0;">Risultati</div>
     <div class="muted" id="status"></div>
   </div>
   <div id="list"></div>
 
+  <!-- POI: Bottoni compressi -->
+  <div class="section-title">Editori</div>
+  <div class="chips" id="editorChips"></div>
+  <div class="moreRow">
+    <button class="btn" id="moreEditorsBtn" type="button">Mostra altri</button>
+    <div class="muted" id="editorsHint"></div>
+  </div>
+
+  <div class="section-title">Autori</div>
+  <div class="chips" id="authorChips"></div>
+  <div class="moreRow">
+    <button class="btn" id="moreAuthorsBtn" type="button">Mostra altri</button>
+    <div class="muted" id="authorsHint"></div>
+  </div>
+
 <script>
-  // CSV parser robusto: gestisce virgole dentro virgolette e doppi apici "".
+  const CONTACT_EMAIL = "giordani.paolo25@gmail.com";
+  const CATALOG_FILE = "catalogo_libri_sito_definitivo.csv"; // <-- se usi nome diverso, cambialo qui
+
+  // CSV parser robusto (virgole tra virgolette + doppi apici)
   function parseCSV(text) {
     const rows = [];
     let row = [];
@@ -111,11 +136,31 @@
   function sortIT(arr) {
     return arr.sort((a,b) => a.localeCompare(b, "it", { sensitivity: "base" }));
   }
-
   function norm(s) { return String(s || "").trim(); }
+  function isSold(b) { return norm(b.disponibile).toLowerCase() === "no"; }
+
+  function mailtoForBook(b) {
+    const subject = encodeURIComponent(`Libro: ${b.autore} — ${b.titolo}`);
+    const body = encodeURIComponent(
+`Ciao Paolo,
+sono interessato a questo libro:
+
+Autore: ${b.autore}
+Titolo: ${b.titolo}
+Editore: ${b.editore}
+Anno: ${b.anno}${b.prezzo ? "\nPrezzo: " + b.prezzo + " €" : ""}
+
+Mi puoi dire:
+- stato del volume (sottolineature, segni, ecc.)
+- modalità di acquisto/spedizione
+
+Grazie!`
+    );
+    return `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
+  }
 
   function bookHTML(b) {
-    const sold = norm(b.disponibile).toLowerCase() === "no";
+    const sold = isSold(b);
     const anno = b.anno ? `(${b.anno})` : "";
     const prezzo = b.prezzo ? `💶 ${b.prezzo} €` : "";
     return `
@@ -124,6 +169,9 @@
         <div class="meta">${b.autore} — ${b.editore} ${anno}</div>
         ${prezzo ? `<div class="meta">${prezzo}</div>` : ``}
         <div class="badge">${sold ? "🔴 Venduto" : "🟢 Disponibile"}</div>
+        <div class="buyRow">
+          <a class="mailbtn" href="${mailtoForBook(b)}">Scrivi per questo libro</a>
+        </div>
       </div>
     `;
   }
@@ -131,6 +179,8 @@
   let books = [];
   let activeEditor = "";
   let activeAuthor = "";
+  let showAllEditors = false;
+  let showAllAuthors = false;
 
   const editorChips = document.getElementById("editorChips");
   const authorChips = document.getElementById("authorChips");
@@ -138,6 +188,13 @@
   const status = document.getElementById("status");
   const search = document.getElementById("search");
   const resetBtn = document.getElementById("resetBtn");
+
+  const moreEditorsBtn = document.getElementById("moreEditorsBtn");
+  const moreAuthorsBtn = document.getElementById("moreAuthorsBtn");
+  const editorsHint = document.getElementById("editorsHint");
+  const authorsHint = document.getElementById("authorsHint");
+
+  const DEFAULT_CHIPS = 12;
 
   function clearActiveChips(container) {
     [...container.querySelectorAll(".chip")].forEach(b => b.classList.remove("active"));
@@ -147,11 +204,10 @@
     status.textContent = txt || "";
   }
 
-  // “contengono quell’autore/editore”: uso includes (più tollerante) anziché match esatto
   function render() {
     const q = norm(search.value).toLowerCase();
 
-    const filtered = books.filter(b => {
+    let filtered = books.filter(b => {
       if (activeEditor && !b.editore.toLowerCase().includes(activeEditor.toLowerCase())) return false;
       if (activeAuthor && !b.autore.toLowerCase().includes(activeAuthor.toLowerCase())) return false;
 
@@ -161,6 +217,9 @@
       }
       return true;
     });
+
+    // Ordina: disponibili prima, poi venduti
+    filtered = filtered.sort((a,b) => Number(isSold(a)) - Number(isSold(b)));
 
     list.innerHTML = "";
     if (filtered.length === 0) {
@@ -187,39 +246,76 @@
     const editors = sortIT([...new Set(books.map(b => b.editore).filter(Boolean))]);
     const authors = sortIT([...new Set(books.map(b => b.autore).filter(Boolean))]);
 
-    editorChips.innerHTML = "";
-    editors.forEach(ed => {
-      const btn = document.createElement("button");
-      btn.className = "chip";
-      btn.textContent = ed;
-      btn.type = "button";
-      btn.onclick = () => {
-        activeEditor = ed;
-        activeAuthor = "";
-        clearActiveChips(authorChips);
-        clearActiveChips(editorChips);
-        btn.classList.add("active");
-        render();
-      };
-      editorChips.appendChild(btn);
-    });
+    function renderEditors() {
+      editorChips.innerHTML = "";
+      const shown = showAllEditors ? editors : editors.slice(0, DEFAULT_CHIPS);
+      shown.forEach(ed => {
+        const btn = document.createElement("button");
+        btn.className = "chip";
+        btn.textContent = ed;
+        btn.type = "button";
+        btn.onclick = () => {
+          activeEditor = ed;
+          activeAuthor = "";
+          clearActiveChips(authorChips);
+          clearActiveChips(editorChips);
+          btn.classList.add("active");
+          render();
+          window.scrollTo({ top: 0, behavior: "smooth" }); // risultati sempre subito
+        };
+        editorChips.appendChild(btn);
+      });
 
-    authorChips.innerHTML = "";
-    authors.forEach(au => {
-      const btn = document.createElement("button");
-      btn.className = "chip";
-      btn.textContent = au;
-      btn.type = "button";
-      btn.onclick = () => {
-        activeAuthor = au;
-        activeEditor = "";
-        clearActiveChips(editorChips);
-        clearActiveChips(authorChips);
-        btn.classList.add("active");
-        render();
-      };
-      authorChips.appendChild(btn);
-    });
+      if (editors.length <= DEFAULT_CHIPS) {
+        moreEditorsBtn.style.display = "none";
+        editorsHint.textContent = `${editors.length} editori`;
+      } else {
+        moreEditorsBtn.style.display = "inline-block";
+        moreEditorsBtn.textContent = showAllEditors ? "Mostra meno" : "Mostra altri";
+        editorsHint.textContent = showAllEditors
+          ? `${editors.length} editori (tutti visibili)`
+          : `${DEFAULT_CHIPS} di ${editors.length} editori`;
+      }
+    }
+
+    function renderAuthors() {
+      authorChips.innerHTML = "";
+      const shown = showAllAuthors ? authors : authors.slice(0, DEFAULT_CHIPS);
+      shown.forEach(au => {
+        const btn = document.createElement("button");
+        btn.className = "chip";
+        btn.textContent = au;
+        btn.type = "button";
+        btn.onclick = () => {
+          activeAuthor = au;
+          activeEditor = "";
+          clearActiveChips(editorChips);
+          clearActiveChips(authorChips);
+          btn.classList.add("active");
+          render();
+          window.scrollTo({ top: 0, behavior: "smooth" }); // risultati sempre subito
+        };
+        authorChips.appendChild(btn);
+      });
+
+      if (authors.length <= DEFAULT_CHIPS) {
+        moreAuthorsBtn.style.display = "none";
+        authorsHint.textContent = `${authors.length} autori`;
+      } else {
+        moreAuthorsBtn.style.display = "inline-block";
+        moreAuthorsBtn.textContent = showAllAuthors ? "Mostra meno" : "Mostra altri";
+        authorsHint.textContent = showAllAuthors
+          ? `${authors.length} autori (tutti visibili)`
+          : `${DEFAULT_CHIPS} di ${authors.length} autori`;
+      }
+    }
+
+    // pulsanti mostra altri/meno
+    moreEditorsBtn.onclick = () => { showAllEditors = !showAllEditors; renderEditors(); };
+    moreAuthorsBtn.onclick = () => { showAllAuthors = !showAllAuthors; renderAuthors(); };
+
+    renderEditors();
+    renderAuthors();
   }
 
   function resetAll() {
@@ -229,10 +325,11 @@
     clearActiveChips(editorChips);
     clearActiveChips(authorChips);
     render();
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  // IMPORTANTE: qui legge il catalogo intero nuovo
-  fetch("catalogo_libri_sito.csv", { cache: "no-store" })
+  // Caricamento catalogo
+  fetch(CATALOG_FILE, { cache: "no-store" })
     .then(r => r.text())
     .then(text => {
       const rows = parseCSV(text);
@@ -257,11 +354,11 @@
         disponibile: norm(r[iDisp] || "sì")
       })).filter(b => b.autore || b.titolo || b.editore);
 
-      buildChips();   // <-- qui crea TUTTI i nomi
+      buildChips();
       render();
     })
     .catch(err => {
-      list.innerHTML = `<div class="muted">Errore nel caricamento del catalogo. Controlla che <b>catalogo_libri_sito.csv</b> sia nella stessa cartella del sito.</div>`;
+      list.innerHTML = `<div class="muted">Errore nel caricamento del catalogo. Controlla che <b>${CATALOG_FILE}</b> sia nella stessa cartella del sito.</div>`;
       setStatusText(String(err));
     });
 
@@ -271,4 +368,3 @@
 
 </body>
 </html>
-
