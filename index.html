@@ -21,6 +21,17 @@
     }
     .btn:hover { border-color:#111; }
 
+    .countbox {
+      margin-top: 10px;
+      display: inline-block;
+      padding: 8px 10px;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      background: #fafafa;
+      font-weight: 900;
+      color:#222;
+    }
+
     .section-title { margin: 16px 0 8px 0; font-size: 14px; font-weight: 900; color: #333; }
     .chips { display:flex; flex-wrap: wrap; gap: 8px; margin-bottom: 10px; }
     .chip {
@@ -40,11 +51,26 @@
     .badge { display:inline-block; margin-top: 6px; font-weight: 900; }
 
     .buyRow { margin-top: 8px; display:flex; gap:10px; flex-wrap: wrap; align-items:center; }
-    .mailbtn {
+    .actionbtn {
       display:inline-block; padding: 8px 10px; border-radius: 10px; border: 1px solid #bbb; background:#fff;
       cursor:pointer; font-weight:800; font-size: 13px; text-decoration:none; color: inherit;
     }
-    .mailbtn:hover { border-color:#111; }
+    .actionbtn:hover { border-color:#111; }
+
+    .toast {
+      position: fixed;
+      left: 50%;
+      bottom: 18px;
+      transform: translateX(-50%);
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid #e0e0e0;
+      background: #fff;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      font-weight: 800;
+      display: none;
+      z-index: 9999;
+    }
   </style>
 </head>
 <body>
@@ -66,6 +92,9 @@
     <input id="search" placeholder="Cerca per autore, titolo o editore…" />
     <button class="btn" id="resetBtn" type="button">Reset</button>
   </div>
+
+  <!-- Box conteggio disponibili -->
+  <div id="availBox" class="countbox"></div>
 
   <!-- RISULTATI SUBITO SOTTO -->
   <div class="results-head">
@@ -89,9 +118,13 @@
     <div class="muted" id="authorsHint"></div>
   </div>
 
+  <div id="toast" class="toast"></div>
+
 <script>
   const CONTACT_EMAIL = "giordani.paolo25@gmail.com";
-  const CATALOG_FILE = "catalogo_libri_sito_definitivo.csv"; // <-- se usi nome diverso, cambialo qui
+  const CATALOG_FILE = "catalogo_libri_sito_definitivo.csv"; // se hai un nome diverso, cambialo qui
+  const DEFAULT_CHIPS = 12;
+  const PREVIEW_N = 15;
 
   // CSV parser robusto (virgole tra virgolette + doppi apici)
   function parseCSV(text) {
@@ -139,6 +172,30 @@
   function norm(s) { return String(s || "").trim(); }
   function isSold(b) { return norm(b.disponibile).toLowerCase() === "no"; }
 
+  function shuffleCopy(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  function showToast(msg) {
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.style.display = "block";
+    clearTimeout(showToast._timer);
+    showToast._timer = setTimeout(() => t.style.display = "none", 1600);
+  }
+
+  function updateAvailBox() {
+    const avail = books.filter(b => !isSold(b)).length;
+    const total = books.length;
+    const el = document.getElementById("availBox");
+    el.textContent = `🟢 ${avail} libri disponibili · Totale: ${total}`;
+  }
+
   function mailtoForBook(b) {
     const subject = encodeURIComponent(`Libro: ${b.autore} — ${b.titolo}`);
     const body = encodeURIComponent(
@@ -170,13 +227,16 @@ Grazie!`
         ${prezzo ? `<div class="meta">${prezzo}</div>` : ``}
         <div class="badge">${sold ? "🔴 Venduto" : "🟢 Disponibile"}</div>
         <div class="buyRow">
-          <a class="mailbtn" href="${mailtoForBook(b)}">Scrivi per questo libro</a>
+          <a class="actionbtn" href="${mailtoForBook(b)}">Apri email</a>
+          <button class="actionbtn" type="button" data-copy="${CONTACT_EMAIL}">Copia email</button>
         </div>
       </div>
     `;
   }
 
   let books = [];
+  let previewBooks = null;
+
   let activeEditor = "";
   let activeAuthor = "";
   let showAllEditors = false;
@@ -193,8 +253,6 @@ Grazie!`
   const moreAuthorsBtn = document.getElementById("moreAuthorsBtn");
   const editorsHint = document.getElementById("editorsHint");
   const authorsHint = document.getElementById("authorsHint");
-
-  const DEFAULT_CHIPS = 12;
 
   function clearActiveChips(container) {
     [...container.querySelectorAll(".chip")].forEach(b => b.classList.remove("active"));
@@ -221,25 +279,28 @@ Grazie!`
     // Ordina: disponibili prima, poi venduti
     filtered = filtered.sort((a,b) => Number(isSold(a)) - Number(isSold(b)));
 
+    // Se nessun filtro e nessuna ricerca: mostra solo anteprima casuale
+    const noFilters = !activeEditor && !activeAuthor && !q;
+    let toShow = filtered;
+    if (noFilters && previewBooks) {
+      toShow = previewBooks;
+      setStatusText(`Vetrina casuale (${toShow.length}) — cerca o scegli autore/editore per vedere tutto`);
+    } else {
+      const parts = [];
+      if (activeEditor) parts.push(`Editore: ${activeEditor}`);
+      if (activeAuthor) parts.push(`Autore: ${activeAuthor}`);
+      if (q) parts.push(`Ricerca: “${search.value}”`);
+      parts.push(`${filtered.length} risultati`);
+      setStatusText(parts.join(" • "));
+    }
+
     list.innerHTML = "";
-    if (filtered.length === 0) {
+    if (toShow.length === 0) {
       list.innerHTML = `<div class="muted">Nessun risultato.</div>`;
-      const parts0 = [];
-      if (activeEditor) parts0.push(`Editore: ${activeEditor}`);
-      if (activeAuthor) parts0.push(`Autore: ${activeAuthor}`);
-      if (q) parts0.push(`Ricerca: “${search.value}”`);
-      setStatusText(parts0.join(" • "));
       return;
     }
 
-    filtered.forEach(b => list.insertAdjacentHTML("beforeend", bookHTML(b)));
-
-    const parts = [];
-    if (activeEditor) parts.push(`Editore: ${activeEditor}`);
-    if (activeAuthor) parts.push(`Autore: ${activeAuthor}`);
-    if (q) parts.push(`Ricerca: “${search.value}”`);
-    parts.push(`${filtered.length} risultati`);
-    setStatusText(parts.join(" • "));
+    toShow.forEach(b => list.insertAdjacentHTML("beforeend", bookHTML(b)));
   }
 
   function buildChips() {
@@ -261,7 +322,7 @@ Grazie!`
           clearActiveChips(editorChips);
           btn.classList.add("active");
           render();
-          window.scrollTo({ top: 0, behavior: "smooth" }); // risultati sempre subito
+          window.scrollTo({ top: 0, behavior: "smooth" });
         };
         editorChips.appendChild(btn);
       });
@@ -293,7 +354,7 @@ Grazie!`
           clearActiveChips(authorChips);
           btn.classList.add("active");
           render();
-          window.scrollTo({ top: 0, behavior: "smooth" }); // risultati sempre subito
+          window.scrollTo({ top: 0, behavior: "smooth" });
         };
         authorChips.appendChild(btn);
       });
@@ -310,12 +371,17 @@ Grazie!`
       }
     }
 
-    // pulsanti mostra altri/meno
     moreEditorsBtn.onclick = () => { showAllEditors = !showAllEditors; renderEditors(); };
     moreAuthorsBtn.onclick = () => { showAllAuthors = !showAllAuthors; renderAuthors(); };
 
     renderEditors();
     renderAuthors();
+  }
+
+  function makePreview() {
+    const onlyAvailable = books.filter(b => !isSold(b));
+    const pool = onlyAvailable.length ? onlyAvailable : books;
+    previewBooks = shuffleCopy(pool).slice(0, PREVIEW_N);
   }
 
   function resetAll() {
@@ -324,9 +390,30 @@ Grazie!`
     search.value = "";
     clearActiveChips(editorChips);
     clearActiveChips(authorChips);
+    makePreview();   // nuova vetrina casuale
     render();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
+
+  // Copia email (universale)
+  document.addEventListener("click", async (e) => {
+    const btn = e.target.closest("button[data-copy]");
+    if (!btn) return;
+    const value = btn.getAttribute("data-copy") || "";
+    try {
+      await navigator.clipboard.writeText(value);
+      showToast("Email copiata ✔");
+    } catch {
+      // fallback
+      const ta = document.createElement("textarea");
+      ta.value = value;
+      document.body.appendChild(ta);
+      ta.select();
+      document.execCommand("copy");
+      document.body.removeChild(ta);
+      showToast("Email copiata ✔");
+    }
+  });
 
   // Caricamento catalogo
   fetch(CATALOG_FILE, { cache: "no-store" })
@@ -354,6 +441,8 @@ Grazie!`
         disponibile: norm(r[iDisp] || "sì")
       })).filter(b => b.autore || b.titolo || b.editore);
 
+      updateAvailBox();
+      makePreview();
       buildChips();
       render();
     })
