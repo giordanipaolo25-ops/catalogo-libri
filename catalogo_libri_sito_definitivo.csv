@@ -1,74 +1,753 @@
-"Autore","Titolo","Editore","Anno","Prezzo","Disponibile"
-"Jung","Opere (voll. 1–17, parziale)","Boringhieri","1991","","sì"
-"Anzieu","Il pensare (dall’io pelle all’io pensante)","Borla","1996","","sì"
-"Bernfeld","Per una biografia di Freud","Bollati Boringhieri","1991","","sì"
-"Finzi","Storia della psicoanalisi","Mondadori","1986","","sì"
-"Heidegger","Tempo ed essere","Guida editori","1980","","sì"
-"Zapparoli","La paura e la noia","Il saggiatore/ biblioteca di scienze dell’uomo","1979","","sì"
-"Giampaolo Lai","Conversazionalismo","Bollati Boringhieri","1993","","sì"
-"Boch","Antropologia culturale moderna","Einaudi","1978","","sì"
-"Ponti","Compendio di criminalogia","Edizioni libreria cortina Milano","1980","","sì"
-"Freud","Casi clinici – n°3 Dora","Boringhieri","1976","","sì"
-"Freud","Casi clinici – n°5 L’uomo dei topi","Boringhieri","1976","","sì"
-"Freud","Casi clinici – n°6 Il presidente Schreber","Boringhieri","1975","","sì"
-"Freud","Interpretazione dei sogni","Newton compton","1976","","sì"
-"Freud","Sogno ipnosi e suggestione","Newton compton","1973","","sì"
-"Freud","Lettere tra Freud e Jung","Bollati Boringhieri","1990","","sì"
-"Freud","Psicoanalisi dell’arte e della letteratura","Newton","1993","","sì"
-"Freud","Psicoanalisi in 5 conferenze","Newton","1996","","sì"
-"Palmier","Guida a Lacan","Bur","1975","","sì"
-"Brome","Vita di Jung","Bollati Boringhieri","1994","","sì"
-"Zilboorg","Storia della psichiatria","Feltrinelli","1963","","sì"
-"Porter","Storia sociale della follia","Garzanti","1991","","sì"
-"Paolo Legrenzi","Storia della psicologia","Mulino","1982","","sì"
-"Gross Kurth","Melanie Klein","Bollati Boringhieri","1988","","sì"
-"Galimberti","Linguaggio e civiltà","Mursia","1984","","sì"
-"Gay","Freud","Bompiani","1988","","sì"
-"Lacan","Il seminario","Einaudi","1985","","sì"
-"Salomè","Il mio ringraziamento a  Freud","Bolinghieri","1984","","sì"
-"Appignanesi Zarate","Freud for beginners","Icon books","1998","","sì"
-"Hillman Boer","La cucina del dottor Freud","Raffaello cortina editore","1985","","sì"
-"Mauro Mancia","Super-io e ideale dell’io","Astrolabio","1990","","sì"
-"Mauro Mancia","Nello sguardo di Narciso","Laterza","1990","","sì"
-"Freud Salomè","Eros e conoscenza","Boringhieri","1984","","sì"
-"Kierkegaard","Il concetto dell’angoscia","Paravia","1971","","sì"
-"Kaplan Sadoch","Disturbi dell’umore (x2)","Centro scientifico internazionale","1996","","sì"
-"Smeraldi Bellodi","I disturbi d’ansia -clinica e terapia","Edi-Ermes","1987","","sì"
-"Smeraldi","I disturbi dell’umore – clinica e terapia (x2)","Edi-Ermes","1993","","sì"
-"Bolko Pfau","I mille volti della depressione","Mediserve","1995","","sì"
-"Molza","Racconti sull’ansia","Passoni editore","1999","","sì"
-"Shepherd Zangwill","Psicopatologia generale","Zanichelli/Manuale Cambridge di psichiatria","1989","","sì"
-"Lader","Manifestazioni psichiatriche nei processi morbosi organici","Zanichelli/Manuale Cambridge di psichiatria – vol.II","1990","","sì"
-"Goodwin Jamison","Malattia maniaco depressiva voll. 1,2,3","McGraw-Hill libri","1994","","sì"
-"Barucci","Trattato di psicogeriatria","USES","1990","","sì"
-"Newman","Le grandi fotografie di National Geographic","National Geographic","2000","","sì"
-"Pancheri Biondi","Stress emozioni e cancro","Il pensiero scientifico editore","1988","","sì"
-"Rozzini Trabucchi","La depressione dell’anziano","UTET","1996","","sì"
-"Cazzullo Invernizzi Vitali","Le condotte suicidarie","USES","1987","","sì"
-"Racagni Smeraldi","Depressione ansiosa","Industrie farmaceutiche riunite – A. Menarini","1989","","sì"
-"Jeneke","Psicofarmacologia geriatrica","Idelson","1987","","sì"
-"Panchieri, Bressa","Ansia e dolore","Wyeth","1987","","sì"
-"Cazzullo, Cornaggia","Epilessia ed eventi psicopatologici","Vita e pensiero","1990","","sì"
-"Cazzullo, Altamura, Invernizzi","Psicofarmacologia oggi","Ravizza spa/ nuove prospettive in neuro psicofarmacologia clinica","1987","","sì"
-"Ghodse, Khan","Prescrivere gli psicofarmaci","Il pensiero scientifico editore","1989","","sì"
-"Bellantuono, Tansella","Gli psicofarmaci nella pratica terapeutica","Il pensiero scientifico editore","1994","","sì"
-"Rapaport, Gill, Schafer","Reattivi psicodiagnostici","Boringhieri","1985","","sì"
-"Flegenheimer","Psicoterapia breve","Boringhieri - vol. XII","1986","","sì"
-"Pancheri, Cassano","Specificità e aspecificità terapeutica dei farmaci antidepressivi","Scientific Press – vol.I","1995","","sì"
-"Panchieri","Farmacoterapia del disturbo schizofrenico","Scientific Press – vol.II","1996","","sì"
-"Exner","Il Rorschach: un sistema comprensivo vol.1","Accademia lombarda Rorschach","1988","","sì"
-"Rorschach","Tavole psicodiagnostiche (x2)","Accademia lombarda Rorschach","1988","","sì"
-"Bisiach, Cappa, Vallar","Guida all’esame neuropsicologico","Raffaello cortina editore","1983","","sì"
-"Giaquinto","Il cervello anziano","Sigma-Tau","1985","","sì"
-"trattati","Liberarsi dalla droga – il recupero dei tossicodipendenti","Age grafica editoriale","1984","","sì"
-"Andreoli","Il medico e la droga","Masson","1979","","sì"
-"Smeraldi Sacchetti","La depressione come problema psicobiologico","Edi Ermes","1980","","sì"
-"Govoni, Frattola, Racagni, Smeraldi","Neuropsicofarmacologia","UTET","1998","","sì"
-"dizionario","Dizionario enciclopedico italiano – voll. 1- 12","Istituto dell’enciclopedia italiana","1955","","sì"
-"dizionario","appendice","Istituto dell’enciclopedia italiana","1955","","sì"
-"Introzzi","Malattie del sistema nervoso voll. 1,2,3","USES / Trattato italiano di medicina interna","1964","","sì"
-"Poli","Psicologia animale ed etologia","Mulino","1981","","sì"
-"Gamna, Rosso","Moderni metodi diagnostici, biologici e strumentali in psichiatria","Edizioni Minerva medica","1987","","sì"
-"Mâle","Psicoterapia dell’adolescente","Raffaello Cortina editore/ Collana di psicologia clinica e psicoterapia – vol. I","1982","","sì"
-"Balint","La regressione","Raffaello Cortina editore/ Collana di psicologia clinica e psicoterapia - vol. IV","1983","","sì"
-"Fornari, Frontori, Riva Crugnola","Psicoanalisi in ospedale","Raffaello Cortina editore/ Collana di psicologia clinica e psicoterapia - vol. IX","1985","","sì"
+Autore,Titolo,Editore,Anno,Prezzo,Disponibile
+Jung,Opere  n°,Boringhieri,1991,,sì
+,"1,2.1,2.2,3,4,5,6,7,8,9.1,9.2,10.1,10.2,11,12,13,14.1,14.2,15,16,17",,,,sì
+Anzieu,Il pensare (dall’io pelle all’io pensante),Borla,1996,,sì
+Bernfeld,Per una biografia di Freud,Bollati Boringhieri,1991,,sì
+Finzi,Storia della psicoanalisi,Mondadori,1986,,sì
+Heidegger,Tempo ed essere,Guida editori,1980,,sì
+Zapparoli,La paura e la noia,Il saggiatore/ biblioteca di scienze dell’uomo,1979,,sì
+Giampaolo Lai,Conversazionalismo,Bollati Boringhieri,1993,,sì
+Boch,Antropologia culturale moderna,Einaudi,1978,,sì
+Ponti,Compendio di criminalogia,Edizioni libreria cortina Milano,1980,,sì
+Freud,Casi clinici,Boringhieri,1976,,sì
+,n°3 Dora,,,,sì
+,n°5 L’uomo dei topi,,,,sì
+,n°6 Il presidente Schreber,,,,sì
+Freud,Casi clinici,Boringhieri,1976,,sì
+,n°5 L’uomo dei topi,,,,sì
+Freud,Casi clinici,Boringhieri,1975,,sì
+,n°6 Il presidente Schreber,,,,sì
+Freud,Interpretazione dei sogni,Newton compton,1976,,sì
+Freud,Sogno ipnosi e suggestione,Newton compton,1973,,sì
+Freud,Lettere tra Freud e Jung,Bollati Boringhieri,1990,,sì
+Freud,Psicoanalisi dell’arte e della letteratura,Newton,1993,,sì
+Freud,Psicoanalisi in 5 conferenze,Newton,1996,,sì
+Palmier,Guida a Lacan,Bur,1975,,sì
+Brome,Vita di Jung,Bollati Boringhieri,1994,,sì
+Zilboorg,Storia della psichiatria,Feltrinelli,1963,,sì
+Porter,Storia sociale della follia,Garzanti,1991,,sì
+Paolo Legrenzi,Storia della psicologia,Mulino,1982,,sì
+Gross Kurth,Melanie Klein,Bollati Boringhieri,1988,,sì
+Galimberti,Linguaggio e civiltà,Mursia,1984,,sì
+Gay,Freud,Bompiani,1988,,sì
+Lacan,Il seminario,Einaudi,1985,,sì
+Salomè,Il mio ringraziamento a  Freud,Boringhieri,1984,,sì
+Appignanesi Zarate,Freud for beginners,Icon books,1998,,sì
+Hillman Boer,La cucina del dottor Freud,Raffaello cortina editore,1985,,sì
+Mauro Mancia,Super-io e ideale dell’io,Astrolabio,1990,,sì
+Mauro Mancia,Nello sguardo di Narciso,Laterza,1990,,sì
+Freud Salomè,Eros e conoscenza,Boringhieri,1984,,sì
+Kierkegaard,Il concetto dell’angoscia,Paravia,1971,,sì
+Kaplan Sadoch,Disturbi dell’umore (x2),Centro scientifico internazionale,1996,,sì
+Smeraldi Bellodi,I disturbi d’ansia -clinica e terapia,Edi-Ermes,1987,,sì
+Smeraldi,I disturbi dell’umore – clinica e terapia (x2),Edi-Ermes,1993,,sì
+Bolko Pfau,I mille volti della depressione,Mediserve,1995,,sì
+Molza,Racconti sull’ansia,Passoni editore,1999,,sì
+Shepherd Zangwill,Psicopatologia generale,Zanichelli/Manuale Cambridge di psichiatria,1989,,sì
+Lader,Manifestazioni psichiatriche nei processi morbosi organici,Zanichelli/Manuale Cambridge di psichiatria – vol.II,1990,,sì
+Goodwin Jamison,"Malattia maniaco depressiva voll. 1,2,3",McGraw-Hill libri,1994,,sì
+Barucci,Trattato di psicogeriatria,USES,1990,,sì
+Newman,Le grandi fotografie di National Geographic,National Geographic,2000,,sì
+Pancheri Biondi,Stress emozioni e cancro,Il pensiero scientifico editore,1988,,sì
+Rozzini Trabucchi,La depressione dell’anziano,UTET,1996,,sì
+Cazzullo Invernizzi Vitali,Le condotte suicidarie,USES,1987,,sì
+Racagni Smeraldi,Depressione ansiosa,Industrie farmaceutiche riunite – A. Menarini,1989,,sì
+Jeneke,Psicofarmacologia geriatrica,Idelson,1987,,sì
+"Panchieri, Bressa",Ansia e dolore,Wyeth,,,sì
+"Cazzullo, Cornaggia",Epilessia ed eventi psicopatologici,Vita e pensiero,1990,,sì
+"Cazzullo, Altamura, Invernizzi",Psicofarmacologia oggi,Ravizza spa/ nuove prospettive in neuro psicofarmacologia clinica,1987,,sì
+"Ghodse, Khan",Prescrivere gli psicofarmaci,Il pensiero scientifico editore,1989,,sì
+"Bellantuono, Tansella",Gli psicofarmaci nella pratica terapeutica,Il pensiero scientifico editore,1994,,sì
+"Rapaport, Gill, Schafer",Reattivi psicodiagnostici,Boringhieri,1985,,sì
+Flegenheimer,Psicoterapia breve,Boringhieri - vol. XII,1986,,sì
+"Pancheri, Cassano",Specificità e aspecificità terapeutica dei farmaci antidepressivi,Scientific Press – vol.I,1995,,sì
+Panchieri,Farmacoterapia del disturbo schizofrenico,Scientific Press – vol.II,1996,,sì
+Exner,Il Rorschach: un sistema comprensivo vol.1,Accademia lombarda Rorschach,1988,,sì
+Rorschach,Tavole psicodiagnostiche (x2),,,,sì
+"Bisiach, Cappa, Vallar",Guida all’esame neuropsicologico,Raffaello cortina editore,1983,,sì
+Giaquinto,Il cervello anziano,Sigma-Tau,1985,,sì
+trattati,Liberarsi dalla droga – il recupero dei tossicodipendenti,Age grafica editoriale,1984,,sì
+Andreoli,Il medico e la droga,Masson,1979,,sì
+Smeraldi Sacchetti,La depressione come problema psicobiologico,Edi Ermes,1980,,sì
+"Govoni, Frattola, Racagni, Smeraldi",Neuropsicofarmacologia,UTET,1998,,sì
+dizionario,Dizionario enciclopedico italiano – voll. 1- 12,Istituto dell’enciclopedia italiana,1955,,sì
+,appendice,,,,sì
+Introzzi,"Malattie del sistema nervoso voll. 1,2,3",USES / Trattato italiano di medicina interna,1964,,sì
+Poli,Psicologia animale ed etologia,Mulino,1981,,sì
+"Gamna, Rosso","Moderni metodi diagnostici, biologici e strumentali in psichiatria",Edizioni Minerva medica,1987,,sì
+Mâle,Psicoterapia dell’adolescente,Raffaello Cortina editore/ Collana di psicologia clinica e psicoterapia – vol. I,1982,,sì
+Balint,La regressione,Raffaello Cortina editore/ Collana di psicologia clinica e psicoterapia - vol. IV,1983,,sì
+"Fornari, Frontori, Riva Crugnola",Psicoanalisi in ospedale,Raffaello Cortina editore/ Collana di psicologia clinica e psicoterapia - vol. IX,1985,,sì
+periodici,"Instantanes medicaux – psychiatrie N° 76, 77, 78, 79, 80, 81, 83, 84, 85, 86, 87",,1994,,sì
+Fenichell,Problemi di tecnica psicoanalitica,Boringhieri,1974,,sì
+"Bini, Bazzi",Trattato di psichiatria- voll. 2/1-2/2 Psichiatria clinica,Vallardi,1974,,sì
+Michel Foucault,Storia della follia nell’età classica,Bur,1978,,sì
+Porot,Dizionario di psichiatria,Edizioni paoline,1962,,sì
+,Manuale diagnostico e statistico dei disturbi mentali,Masson,1990,,sì
+"Bini, Bazzi",Psicologia medica,Vallardi,1971,,sì
+Ancona,Introduzione alla psichiatria,Mondadori / Est,1984,,sì
+,Criteri diagnostici per la ricerca,Masson,1995,,sì
+"Watzlawick, Beavin, Jackson",Pragmatica della comunicazione umana,Astrolabio,1971,,sì
+Fromm-Reichmann,Principi di psicoterapia,Feltrinelli / Biblioteca di psichiatria e psicologia clinica vol. III,1976,,sì
+Greenson,Tecnica e pratica psicoanalitica vol. 1,Feltrinelli / Biblioteca di psichiatria e psicologia clinica vol. XXXII,1974,,sì
+Bleuler,Trattato di psichiatria,Feltrinelli / Biblioteca di psichiatria e psicologia clinica vol. XV,1967,,sì
+"Bellak, Small",Psicoterapia d’urgenza e psicoterapia breve,Il pensiero scientifico editore,1983,,sì
+"Diderot, Dalamber",Enciclopedia – gravure et sculpture,Biblioteque de l’image,2001,,sì
+"Kaplan, Sadoch",Manuale di psichiatria,EdiSES,1993,,sì
+Weitbrecht,Compendio di psichiatria,Piccin,1970,,sì
+"Henderson, Gillespie",Trattato di psichiatria,Società editrice universo,1972,,sì
+Balestrieri,Psicologia medica e psichiatria,UTET,1969,,sì
+Musatti,Curar nevrotici con la propria autoanalisi,Mondadori,1987,,sì
+Musatti,"Psicoanalisti e pazienti a teatro, a teatro!",Mondadori,1988,,sì
+Musatti,Chi ha paura del lupo cattivo?,I Cirri Editori riuniti,1987,,sì
+Von franz,Il femminile nella fiaba,Boringhieri,1985,,sì
+enciclopedia,"L’enciclopedia medica Garzanti voll. 1,2",Garzanti,1976,,sì
+enciclopedia,Enciclopedia medica italiana voll. 1- 15 ; indici,USES,1988,,sì
+Scuro,Medicina interna – fisiopatologia e clinica vol.I,UTET / Recentia in medicina,1997,,sì
+"De Martis, Petrella, Caverzasi",Il paese degli specchi,Feltrinelli /  Biblioteca di psichiatria e psicologia clinica – Serie di psichiatria pratica vol. LX,1980,,sì
+Glatz,Statistica per discipline biomediche (+ CD),McGraw - hill,2007,,sì
+Tansella,L’approccio epidemiologico in psichiatria,Boringhieri,1985,,sì
+Klein,Scritti dal 1921 al 1958,Boringhieri,1983,,sì
+"Hartmann, Kris, Loewenstein",Scritti di psicologia psicoanalitica,Boringhieri,1978,,sì
+Cremerius,Il mestiere dell’analista,Boringhieri,1985,,sì
+Searles,Scritti sulla schizofrenia,Boringhieri,1986,,sì
+Binswanger,Melanconia e mania,Boringhieri,1977,,sì
+"Isaacs, Anna Freud, Winnicott, Bich, Boston, W. E. Freud",l’osservazione diretta del bambino,Boringhieri,1985,,sì
+Fornari,I fondamenti di una teoria psicoanalitica del linguaggio,Boringhieri,1979,,sì
+Fornari,I fondamenti di una teoria psicoanalitica del linguaggio,Boringhieri,1979,,sì
+Musatti,Trattato di psicoanalisi,Boringhieri,1977,,sì
+Meltzer e altri,Esplorazioni sull’autismo,Boringhieri,1983,,sì
+Mahler,Le psicosi infantili,Boringhieri,1985,,sì
+Fornari,Il codice vivente,Boringhieri,1981,,sì
+"Mahler, Pine, Vergman",La nascita psicologica del bambino,Boringhieri,1984,,sì
+"Mahler, Pine, Vergman",Il paziente borderline,Bollati Boringhieri,1988,,sì
+"Thomä, Kächele",Trattato di terapia psicoanalitica vol. II,Bollati Boringhieri,1993,,sì
+Freeman,Lo psichiatra psicoanalista,Bollati Boringhieri,1991,,sì
+"Ballerini, Monti",La vergogna e il delirio,Bollati Boringhieri,1990,,sì
+Benedetti,Paziente e terapeuta nell’esperienza psicotica,Bollati Boringhieri,1991,,sì
+Shapiro,La personalità nevrotica,Bollati Boringhieri,1991,,sì
+Luborsky,Principi di psicoterapia psicoanalitica,Bollati Boringhieri,1989,,sì
+"Waldinger, Gunderson",I risultati della psicoterapia con i pazienti borderline,Bollati Boringhieri,1991,,sì
+"Bartolomei, Wienand",Il male di testa,Feltrinelli,1979,,sì
+"Bella, Siracusano",Il consenso informato in psichiatria,Il pensiero scientifico editore,1996,,sì
+Carotenuto,Trattato di psicologia della personalità e delle differenze individuali,Raffaello Cortina editore,1991,,sì
+Galimberti,Dizionario di psicologia,UTET,1992,,sì
+Langs,La tecnica della psicoterapia psicoanalitica,Boringhieri,1979,,sì
+Binswanger,Tre forme di esistenza mancata,Garzanti,1978,,sì
+Freinet,L’apprendimento della scrittura,Editori Riuniti,1978,,sì
+Jhonson,Trattato di sociologia,Feltirnelli,1968,,sì
+"Polach, Sivadon-Sabourin",Il diritto alla follia,Feltrinelli,1977,,sì
+Bermann,La salute mentale in Cina,Einaudi,1972,,sì
+"Bellantuono, Borgnia, Callieri ecc.",La cura dell’infelicità – oltre il mito biologico della depressione,Edizioni Theoria,1994,,sì
+"Deutsch, Krauss",La psicologia sociale contemporanea,Mulino,1972,,sì
+Fromm,"Personalità, libertà, amore",Newton compton,1980,,sì
+"Ballerini, Callieri",Breviario di psicopatologia,Feltrinelli,1996,,sì
+rivista,Devianza ed emarginazione – Manicomio mania,Edizioni Dedalo,1982- settembre,,sì
+Sacaparro,Volere la luna – La crescita attraverso l’avventura,Edizioni unicopli Milano,1984,,sì
+Merleau-ponty,Fenomenologia della percezione,Edizioni il saggiatore,1980,,sì
+"Gear, Liendo",Psicoterapia della coppia e del gruppo familiare,Edizioni del riccio,1980,,sì
+Carmiello,Alterità e alienità,Feltrinelli,1977,,sì
+Borgnia,I conflitti del conoscere,Feltrinelli,1998,,sì
+Exner,Manuale Rorschach per il sistema comprensivo,Accademia lombarda  Rorschach,1986,,sì
+Zanussi,Terapia medica pratica,UTET,1984,,sì
+vocabolario,Vocabolario di italiano,Zingaretti,Edizione XI,,sì
+,"Storia della medicina voll. 1,2,3",Antonio Delfino Editore,,,sì
+dizionario,Dizionario di medicina e biologia,Zanichelli,Edizione II,,sì
+Lorenzo Rocci,Dizionario di greco,,1962,,sì
+Domenico M. Pisanelli,"Internet, Psichiatria e Neurologia",Il Pensiero Scientifico Editore,1997,,sì
+,Medicina per le donne nel Cinquecento,Strenna UTET,1992,,sì
+Karl Jasper,Psicopatologia Generale,Il Pensiero Scientifico Editore,1982,,sì
+Rivista,N°15 Quaderni di psicoterapia infantile – Metodologia di valutazione di un servizio psichiatrico,Borla,1987,,sì
+J.B. Pontalis,L’Amore degli Inizi,Borla,1990,,sì
+Karl Jaspers,Il medico nell’età della tecnica,Raffaello Cortina Editore,1991,,sì
+Emil Kraepelin,Memorie,ETS Editrice,1989,,sì
+-,Dizionario Italiano-Serbocroato / Serbocroato-Italiano,Antonio Vallardi Editore,1971,,sì
+Candido Ghiotti,Il Novissimo Ghiotti,G.B. Petrini,1961,,sì
+,Vocabolario Italiano-Francese / Francese-Italiano,,,,sì
+Fulvio Scaparro,La maschera del cattivo – note sulla delinquenza minorile,Edizioni UNICOPLI Milano,1984,,sì
+Gaetano Roi,,,,,sì
+A cura di Franco Basaglia,Che cos’è la psichiatria?,Piccola Biblioteca Einaudi,1973,,sì
+A cura di Franco Ceccarello e Francesco De Franceschi,"Psicologi e società – Atti del Convegno nazionale “Psicologia, Ruolo dello psicologo e Istituzioni” tenuto a Padova il 19-20 maggio 1973",Feltrinelli,1974,,sì
+Jean Piaget,Lo sviluppo mentale del bambino,Piccola Biblioteca Einaudi,1967,,sì
+Michael ed Enid Balint,Tecniche Psicoterapiche in Medicina,Piccola Biblioteca Einaudi,1970,,sì
+David H. Clark,Psichiatria e terapia sociale – Salute mentale e nuova assistenza,Feltrinelli,1976,,sì
+Donatella Bonino,Il Compagno Medico – Immigrati e operai a colloquio dallo psicologo. Per una nuova medicina all’interno della fabbrica,Feltrinelli,1975,,sì
+-,"Enciclopedia Medica Italiana – Volume I, II, III, IV",USES Edizioni Scientifiche Firenze,1975,,sì
+Peter R. Hofstatter,Psicologia,Feltrinelli,1970,,sì
+Ian M.L. Hunter,La Memoria – Perché si dimentica? Come ricordare?,Feltrinelli,1972,,sì
+Alberto Manacorda,La Nuova Psichiatria in Italia – Esperienze e prospettive,Feltrinelli,1977,,sì
+Vincenzo Montella,,,,,sì
+VV. AA.,Crisi della Medicina – Proposte di iniziativa politica di massa,Editori Riuniti,1974,,sì
+John N. Rosen,La Psichiatria Psicoanalitica Diretta,Casa Editrice Astrolabio,1974,,sì
+Carlo Zanussi,Proposte di Terapia Medica Pratica – Aggiornamenti 1986,UTET,1986,,sì
+Adelaide Bry,I segreti della psicoterapia (dialogo con nove terapisti),Il Pensiero Scientifico Editore,1974,,sì
+M. Trappolini,Vocabolario Dizionario Medico,Encyclopédie Médico Chirurgicale – Paris,1985,,sì
+V. Galli,"Francese, Inglese, Italiano",,,,sì
+Roberta Siani,Psicologia del sé – Da Kohut alle nuove applicazioni cliniche,Bollati Boringhieri,1992,,sì
+Helmut Thoma e Horst Kachele,Trattato di terapia psicoanalitica – 1: Fondamenti teorici,Bollati Boringhieri,1990,,sì
+Angelo Cocchi,"La gestione manageriale delle strutture intermedie in psichiatria – Qualità, accreditamento e gestione dei servizi di salute mentale 1",Centro Scientifico Editore,1999,,sì
+Giorgio De Isabella,,,,,sì
+Arcadio Erlicher,"Manuale di accreditamento professionale per il Dipartimento di Salute Mentale - Qualità, accreditamento e gestione dei servizi di salute mentale 2",Centro Scientifico Editore,1999,,sì
+Giovanni Rossi,,,,,sì
+V. Franks e V. Burtle,Donne in Terapia – Nuove Psicoterapie per un cambiamento della Società,Organizzazioni Speciali Firenze,1979,,sì
+Carl Ransom Rogers e G. Marian Kinget,Psicoterapia e relazione umane – Teoria e pratica della terapia non direttiva,Boringhieri,1970,,sì
+Franco Fornari,La vita affettiva originaria del bambino,Feltrinelli,1969 3ed.,,sì
+Martin A. Kozloff,Il bambino handicappato – Problemi di apprendimento e di comportamento: un intervento psicologico programmato,Giunti,1991,,sì
+AA. VV.,Dizionario Medico Inglese-Italiano,USES Edizioni Scientifiche Firenze,1990,,sì
+AA. VV.,Enciclopedia Medica Italiana,USES Edizioni Scientifiche Firenze,Corrispondono agli aggiornamenti,,sì
+,"Aggiornamento 1* – Abbagliamento, Diabete Mellito",,1990,,sì
+,Aggiornamento 1** – Diaframma Irudina,,1991,,sì
+,"Aggiornamento 1*** – Isoenzimi, Ozono",,1992,,sì
+,"Aggiornamenti 1**** - Paget, Zoonosi",,1993,,sì
+,"Aggiornamento 2* - Aborto, Evoluzione Molecolare",,1998,,sì
+AA. VV.,Recentia in Medicina Interna,USES Edizioni Scientifiche Firenze,1988,,sì
+A cura di Marcello Negri,,,,,sì
+L.A. Scuro,Recentia in Medicina acd Marcello Negri -Medicina Interna Fisiopatologia e Clinica ** e ***,UTET,,,sì
+Emanuele Lauricella,Dizionario Medico 4° Edizione,USES Edizioni Scientifiche Firenze,1987,,sì
+,1 A-L,,,,sì
+,2 M-Z,,,,sì
+Henri Ey,Manuale di Psichiatria – Quarta Edizione,Masson,1990,,sì
+P. Bernard,,,,,sì
+Ch. Brisset,,,,,sì
+C. Hume,La riabilitazione dei pazienti psichiatrici,Raffaello Cortina Editore,1994,,sì
+I. Pullen,,,,,sì
+A cura di,New trends in schizophrenia - Nuovi orientamenti conoscitivi e comprensivi e prospettive terapeutiche e riabilitative in tema di schizofrenia,Fondazione “Centro Praxis”,-,,sì
+P. Migone,,,,,sì
+G. Martini,,,,,sì
+V. Volterra,,,,,sì
+Jacques Lacan,Il Seminario,Einaudi,1978,,sì
+,Libro I,,,,sì
+,Gli scritti tecnici di Freud,,,,sì
+,1953-1954,,,,sì
+,Libro III,,,,sì
+,Le psicosi,,1985,,sì
+,1955-1956,,,,sì
+,Libro XI,,,,sì
+,I quattro concetti fondamentali della psicoanalisi,,1979,,sì
+,1964,,,,sì
+,Libro XX,,,,sì
+,Ancora,,,,sì
+,1972-1973,,,,sì
+AA. VV.,Super-io e Ideale dell’io,Casa Editrice Astrolabio,1990,,sì
+A cura di Mauro Mancia,,,,,sì
+Mauro Mancia,Nello sguardo di Narciso,Laterza,1990,,sì
+Sigmund Freud,Eros e conoscenza,Boringhieri,1983,,sì
+Lou Andreas Salomé,Lettere 1912-1936,,,,sì
+Lou Andreas Salomé,Il mio ringraziamento a Freud,Boringhieri,1984,,sì
+Soeren Kierkegaard,Il concetto dell’angoscia,Paravia,1971,,sì
+Richard Appignanesi,Freud for beginners,,1998,,sì
+Oscar Zarate,,,,,sì
+Freud,Psicoanalisi,Tascabili Economici Newton,1996,,sì
+,Esposizione divulgativa in cinque conferenze,,,,sì
+Freud,Psicoanalisi dell’arte e della letteratura,Grandi Tascabili Economici Newton,1993,,sì
+AA. VV.,Enciclopedia Medica Italiana,USES Edizioni Scientifiche,"1976, 78",,sì
+,"Volumi 5, 6",,,,sì
+Silvano Arieti,Capire ed aiutare il paziente schizofrenico,Feltrinelli,1981,,sì
+,Una guida per la famiglia e gli amici,,,,sì
+Ludwig Binswanger,Il caso Ellen West e altri saggi,Bompiani,1973,,sì
+Alberto Gaston,Genealogia dell’alienazione,Feltrinelli / Campi del sapere,1987,,sì
+Umberto Galimberti,Gli equivoci dell’anima,Feltrinelli / Campi del sapere,1987,,sì
+Umberto Galimberti,Il corpo,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXIII,1984,,sì
+,"Antropologia, psicoanalisi, fenomenologia",,,,sì
+Luigi De Marchi,Scimmietta ti amo,Longanesi,1984,,sì
+,"Psicologia, cultura, esistenza: da Neanderthal agli scenari atomici",,,,sì
+Robert A. Hinde,Le basi biologiche del comportamento sociale umano,Zanichelli / Serie di Psicologia vol. VI,1982,,sì
+,Studiare gli animali per comprendere l’uomo,,,,sì
+Otto Fenichel,Trattato di psicoanalisi delle nevrosi e delle psicosi,Astrolabio,1951,,sì
+J. Bergeret e coll.,Psicologia patologica,Masson,1979,,sì
+Bruna Zani,La comunicazione,Carocci,2000,,sì
+Patrizia Selleri,Modelli teorici e contesti sociali,,,,sì
+Dolores David,,,,,sì
+A cura di,L’esperienza quotidiana,Franco Angeli Editore,1986,,sì
+F. Massimini e P. Inghilleri,Teoria e metodo d’analisi,,,,sì
+M. Selvini Palazzoli,Paradosso e controparadosso,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXXIII,1979,,sì
+L. Boscolo,Un nuovo modello nella terapia della famiglia a transazione schizofrenica,,,,sì
+G. Cecchin,,,,,sì
+G. Prata,,,,,sì
+A cura di,Teoria generale dei sistemi e psichiatria,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. IIL,1978,,sì
+William Gray,,,,,sì
+Frederick J. Duhl,,,,,sì
+Nicholas D. Rizzo,,,,,sì
+Mara Selvini Palazzoli,L’anoressia mentale,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXVII,1989,,sì
+,Dalla terapia individuale alla terapia familiare,,,,sì
+AA. VV.,Comprendre -,-,"1990, 1992",,sì
+,Archive International pour l’Anthropologie Phénoménologique,,,,sì
+,"Numéro 5, 6",,,,sì
+"Hilde Bruch, M. D.",The golden cage,First Vintage Books Edition,1979,,sì
+,The enigma of anorexia nervosa,,,,sì
+G. Contini,Lavorare con gli psicotici,Il Bagatto Editrice,1985,,sì
+E. Straticò,,,,,sì
+Thomas A. Harris,"Io sono ok, tu sei ok",BUR,1983,,sì
+,Guida pratica all’analisi transazionale,,,,sì
+A cura di,Fenomenologia: filosofia e psichiatria,Masson,1984,,sì
+C. L. Cazzullo,,,,,sì
+C. Sini,,,,,sì
+Guido Petter,Lo sviluppo mentale nelle ricerche di Jean Piaget,Giunti Barbèra,1984,,sì
+Franco Fornari,La vita affettiva originaria del bambino,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. IX,1980,,sì
+Franco Fornari,La lezione freudiana,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXIV,1983,,sì
+,Per una nuova psicoanalisi,,,,sì
+Pierre Flor Henry,Basi cerebrali della psicopatologia,Borla,1990,,sì
+B. Callieri,Lineamenti di una psicopatologia fenomenologica,“Il Pensiero Scientifico” Editore,1972,,sì
+A. Castellani,,,,,sì
+G. De Vincentiis,,,,,sì
+AA. VV.,Rivista Sperimentale di Freniatria e Medicina Legale delle Alienazioni Mentali,Numeri:,-,,sì
+,,Vol. CXIII - Fasc. VI (31 Dicembre 1989) [Sulla pornografia],,,sì
+,,Vol. CXIV - Fasc. II (30 Aprile 1990),,,sì
+,,Vol. CXIV - Fasc. III (30 Giugno 1990),,,sì
+,,Vol. CXV - Fasc. II (30 Aprile 1991),,,sì
+Henri F. Ellenberger,La scoperta dell’inconscio,Boringhieri / Universale Scientifica,1986,,sì
+,Storia della psichiatria dinamica,,,,sì
+,"Voll. 1, 2",,,,sì
+Sigmund Freud,Introduzione alla psicoanalisi,Boringhieri / Universale Scientifica,1974,,sì
+,Prima e seconda serie di lezioni,,,,sì
+Giovanni De Vincentiis,Trattato di psicopatologia e psichiatria forense,“Il Pensiero Scientifico” Editore,"1972, 1973",,sì
+Bruno Callieri,"Voll. 1, 2",,,,sì
+Antonio Castellani,,,,,sì
+Hervè Beauchesne,Storia della psicopatologia,Borla,1990,,sì
+A.    Guareschi - Cazzullo,Lezioni di neuropsichiatria infantile,Edizioni Libreria Cortina,1971 e 1972,,sì
+AA. VV.,Congresso Nazionale di Chiavari 2-3-4 Dicembre 1988,Pàtron Editore,1990,,sì
+A cura di,Autismo Schizofrenico,,,,sì
+Annibale Salsa,,,,,sì
+Michele Schiavone,,,,,sì
+Gilberto Barbarito,Il processo penale nei confronti del minore: struttura e problemi attuali,in Prospettive in Pediatria n. 22 Aprile/Giugno 1976,-,,sì
+Ludwig Binswanger,Per un’antropologia fenomenologica,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXV,1970,,sì
+Donald Woods Winnicott,Frammento di un’analisi,“Il Pensiero Scientifico” Editore,1985,,sì
+Guglielmo Gulotta,La vittima,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. I,1976,,sì
+A cura di,Giudicando un minore,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. XV,1984,,sì
+Luisella De Cataldo Neuburger,Miti e realtà della giustizia minorile,,,,sì
+A cura di,Dalla parte della vittima,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. V,1981,,sì
+G. Gulotta,,,,,sì
+M. Vagaggini,,,,,sì
+A cura di,Infermità di mente e responsabilità civile,CEDAM,1993,,sì
+Paolo Cendon,,,,,sì
+Bruno Bettelheim,La fortezza vuota,Garzanti,1979,,sì
+Jean Bergeret,La personalità normale e patologica,Raffaello Cortina Editore,1984,,sì
+,"Le strutture mentali, il carattere, i sintomi",,,,sì
+Kurt Lewin,I conflitti sociali,Franco Angeli Editore,1980,,sì
+,Saggi di dinamica di gruppo,,,,sì
+Walter Brondolo,Danno psichico,Giuffrè Editore,1996,,sì
+Antonio Marigliano,,,,,sì
+Gianvittorio Pisapia,Fondamento e oggetto della criminologia,CEDAM,1983,,sì
+Gianluigi Ponti,Guida alla perizia psichiatrica,Scuola di specializzazione in criminologia clinica,-,,sì
+AA. VV.,Il reo e il folle,,-,,sì
+,Obiettivo sulla psicopatologia penitenziaria e trasgressiva,,,,sì
+Barry Guze,Handbook di psichiatria,Mediserve,1994,,sì
+J. De Ajuriaguerra,Manuale di psichiatria del bambino,Masson,1987,,sì
+Ludwig Binswanger,Delirio,Marsilio / Saggi,1990,,sì
+,Antropoanalisi e fenomenologia,,,,sì
+Ludwig Binswanger,Il caso Suzanne Urban,Marsilio / Saggi,1994,,sì
+,Storia di una schizofrenia,,,,sì
+M. Clerici,Disturbi alimentari e contesto psicosociale,Franco Angeli Editore,1996,,sì
+F. Lugo,"Bulimia, anoressia e obesità in trattamento ospedaliero",,,,sì
+R. Papa,,,,,sì
+G. Penati,,,,,sì
+Bruno Bettelheim,La Vienna di Freud,Feltrinelli,1989,,sì
+Fascicoli incatalogabili,"Psicosi endogene depressive e maniacali - Hans Jorg Weitbrecht, Bonn",,,,sì
+,"Clinica della schizofrenia - Jakob Wyrsch, Stans e Berna",,,,sì
+,"Le psicosi atipiche e la dottrina di Kleist sulle psicosi endogene - Karl Leonhard, Berlino",,,,sì
+,"Psicosi organiche - Klaus Conrad, Gottinga",,,,sì
+Fabio Folgheraiter,L’utente che non c’è,Erickson,2000,,sì
+,Lavoro di rete e empowerment nei servizi alla persona,,,,sì
+Irene M. Josselyn,L’adolescenza,Armando Editore / Collana Medico Pedagogica vol. LX,1983,,sì
+D. Marcelli,Psicopatologia dell’adolescente,Masson,1994,,sì
+A. Bracconier,,,,,sì
+Rudolf Ekstein,Insegnamento e apprendimento della psicoterapia,Boringhieri / Serie di psicologia e psichiatria,1973,,sì
+R. S. Wallerstein,,,,,sì
+M. Nardini,La psicoanalisi come modalità di ricerca in psichiatria,Athena Editrice,1987,,sì
+A. Pazzagli,,,,,sì
+Silvano Arieti,Interpretazione della schizofrenia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. VII,1971,,sì
+Silvano Arieti,Interpretazione della schizofrenia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica voll. VII* e VII**,1978,,sì
+,Nuova edizione interamente rivista e ampliata,,,,sì
+,Voll. 1 e 2,,,,sì
+A. e A. Oliverio,Nei labirinti della mente,Laterza / Sagittari,1989,,sì
+Eugène Minkowski,Il tempo vissuto,Einaudi / Paperbacks vol. XXII,1971,,sì
+,Fenomenologia e psicopatologia,,,,sì
+Ransom J. Arthur,Introduzione alla psichiatria sociale,Il Mulino,1973,,sì
+Gianluigi Ponti,Psichiatria e giustizia,Raffaello Cortina Editore,1993,,sì
+Isabella Merzagora,,,,,sì
+Giorgio Voghera,"Gli anni della psicanalisi [sulla letteratura a Trieste, tra le altre cose]",Edizioni Studio Tesi,1980,,sì
+AA. VV.,Synesis,AIC,"Anno II, n. 2/3, ottobre 1985",,sì
+,Il significato del tempo,Periodico dell’associazione italiana centri culturali,,,sì
+,Il problema delle biotecnologie,,,,sì
+Charles Rycroft,Dizionario critico di psicoanalisi,Casa Editrice Astrolabio,1970,,sì
+Paul Watzlawick,Il linguaggio del cambiamento,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LIX,1988,,sì
+,Elementi di comunicazione terapeutica,,,,sì
+Giovanni Carlo Zapparoli,La psicosi e il segreto,Boringhieri,1987,,sì
+A cura di,La crisi psicotica acuta,Borla,1989,,sì
+Dario De Martis,,,,,sì
+Francesco Barale,,,,,sì
+Edgardo Caverzasi,,,,,sì
+Giovanni Jervis,Manuale critico di psichiatria,Feltrinelli,1980,,sì
+Guglielmo Gulotta,I processi di attribuzione nella psicologia interpersonale e sociale,Franco Angeli Editore / Collana di psicologia,1982,,sì
+A cura di,Il discontrollo omicida,Franco Angeli Editore / Collana di psicologia,1981,,sì
+F. Andreani,,,,,sì
+M. Cesa - Bianchi,,,,,sì
+Jerry M. Lewis,Fare il terapista,G. Martinelli Editore,1981,,sì
+,"Come si insegna, come si impara",,,,sì
+Peter F. Sifneos,Psicoterapia breve e crisi emotiva,G. Martinelli Editore & C. s. a. s.,1982,,sì
+Carl R. Rogers,La terapia centrata-sul-cliente,G. Martinelli Editore,1970,,sì
+Charles Brenner,Breve corso di psicoanalisi,G. Martinelli Editore,1976,,sì
+Fausto Petrella,Turbamenti affettivi e alterazioni dell’esperienza,Raffaello Cortina Editore/ Collana di Psicologia clinica e Psicoterapia vol. LXI,1993,,sì
+Ping-Nie Pao,Disturbi schizofrenici,Raffaello Cortina Editore / Collana di Psicologia clinica e Psicoterapia vol. VII,1979,,sì
+,Teoria e trattamento da un punto di vista psicodinamico,,,,sì
+Eugen Bleuler,Dementia praecox o il gruppo delle schizofrenie,La Nuova Italia Scientifica,1985,,sì
+Richard Warner,Schizofrenia e guarigione,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXXI,1991,,sì
+,Psichiatria ed economia politica,,,,sì
+Arnaldo Ballerini,Dopo la schizofrenia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXV,1983,,sì
+Mario Rossi Monti,Mutamento e invarianza attraverso la psicosi,,,,sì
+Aldo Semerari,Manuale di psichiatria forense,Antonio Delfino Editore,1981,,sì
+A cura di,Psichiatria forense,Antonio Delfino Editore,1983,,sì
+Aldo Semerari,Casistica e clinica,,,,sì
+Donald H. McBurney,Metodologia della ricerca in psicologia,Il Mulino,1986,,sì
+A cura di,Strutture intermedie in psichiatria,Raffaello Cortina Editore / Collana di Psicologia clinica e Psicoterapia vol. III,1982,,sì
+Margherita Lang,,,,,sì
+Paul-Claude Recamier,Gli schizofrenici,Raffaello Cortina Editore / Collana di Psicologia clinica e Psicoterapia vol. V,1983,,sì
+Alessandro Baratta,Criminologia critica e critica del diritto penale,Il Mulino,1982,,sì
+Anne Anastasi,I test psicologici,Franco Angeli Editore / Collana di psicologia,1983,,sì
+Eugène Minkowski,La schizofrenia,Bertani Editore,1980,,sì
+Frieda Fromm-Reichmann,Psicoanalisi e psicoterapia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. X,1977,,sì
+A cura di,"Istituzione, famiglia",Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1978,,sì
+Dario De Martis,Équipe curante,Serie di psichiatria pratica,,,sì
+Michele Bezoari,Pratiche e teorie a confronto,vol. XLVII SPP5,,,sì
+Albert E. Scheflen,I livelli della schizofrenia,Casa Editrice Astrolabio,1982,,sì
+Augusto Ermentini,Psicopatologia generale e schizofrenia,Edizioni Libreria Cortina,1979,,sì
+Filippo Noto Campanella,,,,,sì
+Silvano Arieti,Studi sulla schizofrenia,“Il Pensiero Scientifico” Editore,1975,,sì
+Berthold Stokvis,Psicoterapia nella pratica medica,Casa Editrice Dr. Francesco Vallardi,1972,,sì
+,,Società Editrice Libraria,,,sì
+Georg Groddeck,Il libro dell’Es,Edizioni Club,1966,,sì
+,Lettere di psicoanalisi a un’amica,,,,sì
+Giovanni Jervis,Il buon rieducatore,Feltrinelli,1977,,sì
+,Scritti sugli usi della psichiatria e della psicanalisi,,,,sì
+Hubert Jaoui,La creatività,BUR,2000,,sì
+,Amore della vita,,,,sì
+,Creo quindi sono,,,,sì
+S. Piro,Linguaggi della psicosi,Métis,1991,,sì
+R. Madera,Linguaggi della complessità,,,,sì
+E. Borgna,,,,,sì
+I. Valent,,,,,sì
+T. Szazs,Schizofrenia simbolo sacro della psichiatria,Armando Editore,1984,,sì
+Gaetano Benedetti,Neuropsicologia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXII,1976,,sì
+,Le attività psichiche in una sintesi di psicologia sperimentale neurofisiologica e psichiatria,,,,sì
+Eugène Minkowski,Trattato di psicopatologia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXXI,1973,,sì
+Michael A. Selzer,Il paziente schizofrenico,Franco Angeli Editore / Collana di Psicologia Clinica,1992,,sì
+Timothy B. Sullivan,L’alleanza terapeutica nel trattamento ospedaliero e ambulatoriale,,,,sì
+Monica Carsky,,,,,sì
+Kenneth G. Terkelsen,,,,,sì
+Frederic Vester,"Il pensiero, l’apprendimento e la memoria",Giunti,1987,,sì
+Stephen Bazire,Psychotropic Drug Directory,Quay Books,1999,,sì
+,The professionals’ pocket handbook & aide memoire,,,,sì
+Mario Farnè,TA,Giunti Barbèra,1980,,sì
+Giuseppe Calderano,Il training autogeno di J. H. Schultz,,,,sì
+Ugo Pozzi,,,,,sì
+Gaetano Penati,La terapia medica delle malattie psichiatriche,Ferro Edizioni / Manuali di terapia medica,1985,,sì
+Bruno Klopfer,La tecnica Rorschach,Edizioni OS Firenze,1971,,sì
+Helen H. Davidson,Manuale introduttivo,,,,sì
+Sandro Antoniazzi,Fabbriche e territorio,Coines Edizioni,1975,,sì
+Mario Napoli,Esperienze di contrattazione,,,,sì
+Bruno Paccagnella,,,,,sì
+Giuseppe Torri,,,,,sì
+Gordon Claridge,Psicofarmaci: problemi e prospettive,Boringhieri / Universale scientifica,1973,,sì
+M. Cesa-Bianchi,La percezione,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1972,,sì
+A. Beretta,Un’introduzione alla psicologia della visione,,,,sì
+R. Luccio,,PS/2.1,,,sì
+Charles Morris,"Segni, linguaggio e comportamento",Longanesi & C.,1963,,sì
+A cura di,Litio e rubidio: farmacologia e terapia,Edizioni del Moretto /,1985,,sì
+Augusto Ermentini - Giuseppe Fazzari - Carlo Andrea Robotti - Claudio Vampini,,Università degli Studi di Brescia - Clinica Psichiatrica - Collana (?) Psychopathologia,,,sì
+A cura di,Tavola rotonda,Edizioni Universitarie Romane,1991,,sì
+Michele Piccione,1991-09-07 00:00:00,,,,sì
+,Hotel Hilton - Roma,,,,sì
+,Il litio oggi,,,,sì
+,Esperienze a confronto,,,,sì
+Giulio Gaffuri,Il reattivo dell’albero (Baum test) nella diagnosi di schizofrenia,Edizioni Omnia Medica,1970,,sì
+A cura di,La diagnosi testologica,Franco Angeli Editore / Collana (?) Psicologia clinica,1989,,sì
+Franco Del Corno,"Test neuropsicologici, test d’intelligenza, test di personalità, testing computerizzato",,,,sì
+Margherita Lang,,1226.3,,,sì
+AA. VV.,Psichiatria geriatrica,Masson Italia Editori,1981,,sì
+A. Carlo Altamura,Argomenti di Clinica e Farmacoterapia delle Psicosi Maggiori,McGraw-Hill,1996,,sì
+Edmond Gilliéron,Manuale di Psicoterapia Analitica Breve,Edizioni Universitarie Romane,1993,,sì
+Luigi Poiaga,Introduzione ai metodi quantitativi nelle scienze sociali,Edizioni Libreria Cortina,1975,,sì
+Ferdinando Barison,Il Rorschach fenomenologico,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1982,,sì
+Dolores Passi Tognazzo,,,,,sì
+,,1225.11,,,sì
+Gennie e Paul Lemone,Lo psicodramma,Feltrinelli / Psicologia e Psicanalisi,1977,,sì
+,Moreno riletto alla luce di Freud e Lacan,,,,sì
+A. S. Roversi,Diagnostica e terapia,Edizioni mediche italiane,1994,,sì
+Edith Jacobson,La depressione,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1977,,sì
+,"Studi comparativi degli stati normali, nevrotici e psicotici",,,,sì
+Hanna Segal,Introduzione all’opera di Melanie Klein,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1975,,sì
+Melanie Klein,La psicoanalisi dei bambini,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1970,,sì
+Melanie Klein,Il nostro mondo adulto e altri saggi,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1972,,sì
+Hubertus Tellenbach,Melancolia,“Il Pensiero Scientifico” Editore / P. B. N.,1975,,sì
+,Storia del problema - Endogenicità - Tipologia - Patogenesi - Clinica,,,,sì
+[2 VOLUMI UGUALI],,,,,sì
+Hubert M. Blalock jr.,Statistica per la ricerca sociale,Il Mulino,1984,,sì
+Gabriele Salerno,Il tempo degli anziani,,,,sì
+Augusto Ermentini,Le depressioni e le parafrenie,Edizioni libreria Cortina - Milano,1980,,sì
+Filippo Noto Campanella,,,,,sì
+Cesare Musatti,I girasoli,Editori Riuniti / Universale scienze sociali,1984,,sì
+Cesare Musatti,Questa notte ho fatto un sogno,Editori Riuniti / Universale scienze sociali,1983,,sì
+Pierre Bernard Schneider,I fondamenti della psicoterapia,Borla,1977,,sì
+Marie-Louise Von Franz,Sguardo dal sogno,Raffaello Cortina Editore / Collana di Psicologia 22,1989,,sì
+James Hillman,Le storie che curano,Raffaello Cortina Editore / Collana di Psicologia 3,1984,,sì
+,Freud Jung Adler,,,,sì
+Silvia Leonzi,La salute tra norma e desiderio,Meltemi / Collana Le Società,1999,,sì
+Joan Gomez,Dizionario dei sintomi,Garzanti,1977,,sì
+Trevor Silverstone,L’impiego dei farmaci in psichiatria,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1980,,sì
+Paul Turner,,Serie di psichiatria pratica,,,sì
+,,vol. LXIV SPP11,,,sì
+Pierre-B. Schneider,Psicologia medica,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1981,,sì
+,,vol. XXVIII,,,sì
+David Cooper,Il linguaggio della follia,Feltrinelli Economica,1979,,sì
+A cura di,Lewin,Il Mulino / Il pensiero moderno - Psicologia,1977,,sì
+Giuseppe Galli,Antologia di scritti,,,,sì
+L. Cancrini,Psichiatria e rapporti sociali,Editori Riuniti / Argomenti 63,1976,,sì
+M. Malagoli Togliatti,,,,,sì
+Niklas Luhmann,Potere e complessità sociale,Il Saggiatore / Lo spazio politico 10,1979,,sì
+A cura di,Fare e pensare in psichiatria,Raffaello Cortina Editore / Collana di Psicologia clinica e Psicoterapia 18,1987,,sì
+D. De Martis,Relazione e istituzione,,,,sì
+F. Petrella,,,,,sì
+P. Ambrosi,,,,,sì
+Antonio Alberto Semi,Tecnica del colloquio,Raffaello Cortina Editore / Collana di Psicologia clinica e Psicoterapia 11,1985 (1989),,sì
+Patrick Casement,Apprendere dal paziente,Raffaello Cortina Editore / Collana di Psicologia clinica e Psicoterapia 25,1989,,sì
+A cura di,Psicoanalisi al femminile,Editori Laterza,1992,,sì
+Silvia Vegetti Finzi,,,,,sì
+A cura di,L’altra pazzia,Feltrinelli / Psicologia e Psicoanalisi,1975,,sì
+Laura Forti,Mappa antologica della psichiatria alternativa,,,,sì
+Harry F. Harlow,Psicologia come scienza del comportamento,Mondadori / EST (Edizioni Scientifiche e Tecniche),1976,,sì
+James L. McGaugh,,,,,sì
+Richard F. Thompson,,,,,sì
+Harry Guntrip,Teoria psicoanalitica della relazione d’oggetto,Etas Libri / Biblioteca di Psicoanalisi e Psicoterapia,1975,,sì
+Loren R. Mosher,Psichiatria territoriale,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1991,,sì
+Lorenzo Burti,Principi e pratica,vol. LXXXII,,,sì
+AA. VV.,La spiegazione nelle scienze del comportamento,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1981,,sì
+A cura di,,,,,sì
+R. Borger,,1222.34,,,sì
+F. Cioffi,,,,,sì
+Hans Georg Gadamer,"Chi sono io, chi sei tu",Marietti,1989,,sì
+,Su Paul Celan,,,,sì
+AA. VV.,Psichiatria nel territorio,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1977,,sì
+A cura di,,Serie di psichiatria pratica,,,sì
+Alberto Merini,,vol. XLI SPP2,,,sì
+Carlo Ravasini,Introduzione alla psicologia clinica,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1979,,sì
+,,1222.31,,,sì
+A cura di,Esperienze di una ricerca sulle tossicomanie giovanili in Italia,Mondadori / Oscar Saggi,1979,,sì
+Luigi Cancrini,,,,,sì
+Ivan P. Pavlov,I riflessi condizionati,Boringhieri / Universale scientifica,1966,,sì
+Giannetto Cerquetelli,I riflessi condizionati nella vita quotidiana,Rizzoli,1970,,sì
+Aldo Durante,,,,,sì
+Guido Blumir,Eroina,Feltrinelli,1976,,sì
+,Storia e realtà scientifica / Diffusione in Italia / Manuale di autodifesa,,,,sì
+M. Anty,Psychiatrie,Masson,1975,,sì
+,À l’usage de l’équipe médico-psychologique,,,,sì
+Thomas S. Szasz,Il mito della malattia mentale,"Il Saggiatore / Biblioteca di filosofia, psicologia, scienze umane",1966,,sì
+Spartaco Lucarini,Dossier sulla droga,Città Nuova Editrice,1970,,sì
+H. G. Whittington,I centri di igiene mentale del territorio,G. Martinelli Editore / Psicoterapia e civiltà contemporanea,1976,,sì
+AA. VV.,Dal manicomio al territorio,“Il Pensiero Scientifico” Editore / P. B. N.,1978,,sì
+A cura di,,,,,sì
+G. F. Goldwurm,,,,,sì
+G. G. Alberti,,,,,sì
+Thomas J. Scheff,“Per infermità mentale”,Feltrinelli / Collana di Medicina e Potere,1976,,sì
+,Una teoria sociale della follia,4,,,sì
+Francesco Novara,Psicologia del lavoro,Il Mulino / Istituzioni di Psicologia,1983,,sì
+Renato A. Rozzi,,,,,sì
+Guido Sarchielli,,,,,sì
+J. Bergeret e Coll.,Psicologia patologica,Masson,1979,,sì
+Domenico De Salvia,Per una psichiatria alternativa,Feltrinelli / Collana di Medicina e Potere,1977,,sì
+,,15,,,sì
+Jean Oury,Psichiatria e psicoterapia istituzionale,Marsilio editori,1976,,sì
+AA. VV.,"Volantini ciclostilati, lettere, articoli. Trieste ospedale psichiatrico provinciale",Edizioni cooperativa libraria Via Gambini,1972/1973,,sì
+N. Boulanger,Lavoro famiglia psichiatria,Feltrinelli / Collana di Medicina e Potere,1974,,sì
+J. F. Chaix,Il ruolo della psichiatria nelle istituzioni,5,,,sì
+Giancarlo Arnao,Rapporto sulle droghe,Feltrinelli / Collana di Medicina e Potere,1976,,sì
+,,13,,,sì
+Silvano Arieti,La depressione,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1981,,sì
+Jules Bemporad,Grave e lieve,vol. LXV,,,sì
+,L’orientamento psicoterapeutico,,,,sì
+AA. VV.,Atti del convegno,Edizioni Esagraph,1985,,sì
+,Segno Simbolo Sintomo Comunicazione,,,,sì
+,Implicanze e convergenze fra filosofia psichiatria psicoanalisi,,,,sì
+,(Chiavari 5-6-7 Dicembre 1984),,,,sì
+Paul Bernard,L’infermiere psichiatrico,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1976,,sì
+,Manuale teorico e pratico,Serie di psichiatria pratica,,,sì
+,,vol. XXXVI SPP 1,,,sì
+Lucia Zannini,"Salute, malattia e cura",Franco Angeli,2007,,sì
+,Teoria e percorsi di clinica della formazione per gli operatori sociosanitari,,,,sì
+A. Quadrio,Il colloquio in psicologia clinica e sociale,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1983,,sì
+V. Ugazio,Prospettive teoriche e applicative,,,,sì
+,,1222.35,,,sì
+Carlo Ravasini,Introduzione alla psicologia clinica,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1979,,sì
+,,1222.31,,,sì
+Ivan Illich,Nemesi medica,Mondadori,1977,,sì
+,L’espropriazione della salute,,,,sì
+AA. VV.,Enciclopedia Medica Italiana,USES Edizioni Scientifiche,1982,,sì
+,"Volumi 9, 10",,,,sì
+Pietro Sarteschi,Manuali di medicina interna,Goliardica Editrice - Parma,1982,,sì
+Carlo Maggini,Psichiatria,,,,sì
+Gian Carlo Reda,Trattato di psichiatria,USES,1982,,sì
+A cura di,Manuale di psichiatria,Boringhieri,"1979, 1980, 1980",,sì
+Silvano Arieti,3 voll.,,,,sì
+Alfred M. Freedman,Trattato di psichiatria,Piccin,1984,,sì
+Harold I. Kaplan,,,,,sì
+Benjamin J. Sadock,,,,,sì
+Giovanni B. Cassano,Psichiatria medica,UTET / Progressi in medicina interna diretti da Carlo Zanussi,1990,,sì
+Pierre Thévenaz,La fenomenologia,Città Nuova Editrice,1976,,sì
+Vittorino Andreoli,Solitudine,CIC Edizioni Internazionali,2003,,sì
+,Tra timore e desiderio,,,,sì
+Luciana Caronna Pittari,Malattia e società,Sapere Edizioni,1974,,sì
+,I fondamenti della scienza medica in Occidente e in Oriente,,,,sì
+Massimo Biondi,La mente e il cancro,Il Pensiero Scientifico Editore,1995,,sì
+Anna Costantini,Insidie e risorse della psiche nelle patologie tumorali,,,,sì
+Luigi Grassi,,,,,sì
+Franco Granone,Trattato di ipnosi,UTET,1989,,sì
+,Voll. I e II,,,,sì
+Floyd E. Bloom,Psychopharmacology,Lippincott-Raven Healthcare,1995,,sì
+David J. Kupfer,The fourth generation of progress,,,,sì
+Adolfo Pazzagli,Schizofrenia: cronicità o bisogno inappagabile?,Il Pensiero Scientifico Editore,1991,,sì
+Romolo Rossi,,,,,sì
+A cura di,New trends in schizophrenia,Fondazione “Centro Praxis”,,,sì
+P. Migone,,,,,sì
+G. Martini,,,,,sì
+V. Volterra,,,,,sì
+A cura di,New trends in schizophrenia II,Fondazione “Centro Praxis”,,,sì
+P. Migone,,,,,sì
+G. Martini,,,,,sì
+V. Volterra,,,,,sì
+Aldo Carotenuto,Trattato di psicologia analitica,UTET,1992,,sì
+,I - La dimensione culturale,,,,sì
+,II - La dimensione clinica,,,,sì
+W. R. Bion,Analisi degli schizofrenici e metodo psicanalitico,Armando,1979,,sì
+,,/ Collana Psicoanalisi e psichiatria del profondo - vol. 5,,,sì
+H. A. Rosenfeld,Stati psicotici,Armando,1988,,sì
+,Un approccio psicoanalitico,/ Collana Psicoanalisi e psichiatria del profondo,,,sì
+Jean Starobinski,Histoire du traitement de la mélancoliie des origines à 1900,Documenta Geigy,1960,,sì
+,,Acta psychosomatica,,,sì
+,,N° 4,,,sì
+AA. VV.,Schizofrenia,Fondazione italiana per lo studio della schizofrenia,"1989, Vol. 2, N. 1",,sì
+Mario Isotti,Amore mio nemico,Rizzoli,1978,,sì
+A cura di,Le discontinuità della coscienza,Franco Angeli,1993,,sì
+Giovanni Liotti,"Etiologia, diagnosi e psicoterapia dei disturbi dissociativi",/ Collana Pratica clinica - 1143.1,,,sì
+Kurt Schneider,Psicopatologia clinica,Città Nuova,1983,,sì
+Maurizio Ferrara,Manuale della riabilitazione in psichiatria,Il Pensiero Scientifico Editore,1990,,sì
+Giuseppe Germano,,,,,sì
+Giuliana Archi,,,,,sì
+A cura di,Il guaritore ferito,Melusina Editrice,1988,,sì
+Patrizia Moselli,La vulnerabilità del terapeuta,,,,sì
+A. Haynal,Medicina psicosomatica,Masson,1981,,sì
+W. Pasini,,,,,sì
+Maria Clotilde Gislon,Il colloquio clinico e la diagnosi differenziale,Bollati Boringhieri,1988,,sì
+Michele Schiavone,"Psichiatria, psicoanalisi, sociologia",Pàtron,1988,,sì
+,Riflessioni epistemologiche sulle scienze umane,,,,sì
+,,Biblioteca Pàtron di psicologia,,,sì
+AA. VV.,Tendenze nuove,Il Mulino,2006-03-01 00:00:00,,sì
+,Materiali di lavoro su sanità e salute della Fondazione Smith Kline,,,,sì
+Roberta Siani,Strategie di psicoterapia e riabilitazione,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1990,,sì
+Orazio Siciliani,Gli psicotici e il servizio psichiatrico,Vol. LXXIX,,,sì
+Lorenzo Burti,,,,,sì
+Giovanni Jervis,La psicoanalisi come esercizio critico,Garzanti,1989,,sì
+,L’eredità freudiana nell’epoca della perdita dei suoi miti,,,,sì
+Francesco Parenti,La psicologia individuale dopo Adler,Casa Editrice Astrolabio,1983,,sì
+Paolo Vineis,L’osservazione medica,Garzanti,1991,,sì
+,Dalla diagnosi precoce alle cause ambientali delle malattie: i nuovi temi della medicina,,,,sì
+Raymond Boudon,Metodologia della ricerca sociologica,Il Mulino,1970,,sì
+A cura di,La terapia della schizofrenia,Il Pensiero Scientifico Editore,1985,,sì
+Giancarlo Reda,,,,,sì
+Paolo Pancheri,,,,,sì
+Frieda Fromm-Reichmann,Principi di psicoterapia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1976,,sì
+,,Vol. III,,,sì
+Quentin Debray,Lo psicopatico,Armando Editore,1981,,sì
+,,/ Collana Medico Psico Pedagogica,,,sì
+A cura di,Psichiatria nella comunità,Bollati Boringhieri,1993,,sì
+Fabrizio Asioli,Cultura e pratica,/ Manuali di Psicologia Psichiatria Psicoterapia,,,sì
+Arnaldo Ballerini,,,,,sì
+Giuseppe Berti Ceroni,,,,,sì
+W. C. McGrew,Il comportamento infantile,Franco Angeli Editore / Collana di psicologia vol. 1222.18,1980,,sì
+,Uno studio etologico,,,,sì
+Gaetano Benedetti,Alienazione e personazione nella psicoterapia della malattia mentale,Einaudi,1980,,sì
+Vittorino Andreoli,Un secolo di follia,Rizzoli,1991,,sì
+,Da Freud alla psichiatria degli anni Duemila,,,,sì
+Eraldo Berti,La costruzione del senso,Masson,1995,,sì
+Fabio Comunello,Osservazione e interpretazione,,,,sì
+A cura di,La psichiatria oggi,Edizioni Stimmgraf,1985,,sì
+G. C. Zapparoli,Proposta di un modello integrato di intervento terapeutico,,,,sì
+AA. VV.,Manuale diagnostico e statistico dei disturbi mentali,Masson,1983,,sì
+Vittorino Andreoli,Il linguaggio malato,Masson,1979,,sì
+,Il mito della comprensione in psichiatria,,,,sì
+Dario De Martis,Realtà e fantasma nella relazione terapeutica,Il Pensiero Scientifico Editore,1984,,sì
+,Saggi psicoanalitici,,,,sì
+David H. Malan,Psicoterapia in pratica,Cappelli editore,1981,,sì
+Umberto Galimberti,Psichiatria e fenomenologia,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica,1979,,sì
+,,Vol. LIII,,,sì
+AA.VV.,Il litio nella prevenzione dei disturbi dell’umore. Rilievi clinici e metodologici,Il Pensiero Scientifico Editore,1981,,sì
+Paolo Pancheri,Terapia della schizofrenia,Il Pensiero Scientifico Editore,1991,,sì
+Massimo Biondi,,,,,sì
+Ugo Fornari,Trattato di psichiatria forense,UTET,1997,,sì
+Ugo Fornari,Compendio di psichiatria forense,Edizioni Giuridiche Economiche Scientifiche,1984,,sì
+AA. VV.,Una perfezione manicomiale,Regione Piemonte,1981,,sì
+,Immagini e testi per una storia della psichiatria,,,,sì
+Glen O. Gabbard,Psichiatria psicodinamica,Raffaello Cortina Editore,1997,,sì
+R. D. Laing,L’io diviso,Einaudi / Nuovo politecnico vol. 27,1978,,sì
+R. D. Laing,Nodi,Einaudi / Nuovo politecnico vol. 65,1980,,sì
+R. D. Laing,Mi ami?,Einaudi / Nuovo politecnico vol. 110,1979,,sì
+Mauro Covacich,Storia di pazzi e di normali,Theoria,1993,,sì
+Tilmann Moser,Lo psicanalista sul divano,Feltrinelli,1980,,sì
+,Frammenti di un’analisi didattica,,,,sì
+Abraham,Opere,Boringhieri,1986,,sì
+,"voll. 1,2",,,,sì
+Anna Freud,Opere,Boringhieri,1985,,sì
+,"voll. 1,2,3",,,,sì
+Sigmund Freud,Opere,Boringhieri,1984,,sì
+,voll. 1 - 12,,,,sì
+Sigmund Freud,Lettere a Wilhelm Fliess,Boringhieri,1985,,sì
+,1887 - 1904,,,,sì
+Frances Tustin,Autismo e psicosi infantile,Armando Editore / Collana Medico Psico Pedagogica vol. 4,1986,,sì
+A cura di,Il problema etico-deontologico in psichiatria,Psychopatologia,1987,,sì
+Nereide Rudas,Atti del primo congresso nazionale della società italiana di psichiatria forense,,,,sì
+Augusto Ermentini,,,,,sì
+A cura di,La psicoterapia cognitiva nel servizio pubblico,Franco Angeli Editore / Collana di psicologia,1996,,sì
+G. Rezzonico,,Vol. 1225.31,,,sì
+F. Lambruschi,,,,,sì
+Gregory Bateson,Mente e natura,Adelphi / Biblioteca Scientifica 5,1984,,sì
+Pierre Mâle,Psicoterapia dell’adolescente,Raffaello Cortina Editore / Collana di psicologia clinica e psicoterapia vol. 1,1982,,sì
+Aaron T. Beck,Principi di terapia cognitiva,Casa Editrice Astrolabio,1984,,sì
+,Un approccio nuovo alla cura dei disturbi affettivi,,,,sì
+Giuseppe Roccatagliata,Storia della psichiatria antica,Hoepli,1973,,sì
+Stefano Poggi,Le origini della psicologia scientifica,Loescher / Filosofia vol. 22,1980,,sì
+Yves Pélicier,Histoire de la psychiatrie,Presses Universitaires de France,1971,,sì
+A cura di,Il disturbo da attacchi di panico - agorafobia,Masson,1990,,sì
+G. B. Cassano,,,,,sì
+Richard L. Strub,L’esame delle funzioni cognitive in neurologia,,1994,,sì
+F. William Black,,,,,sì
+Roger Mucchielli,Apprendere il counseling,Erickson,1995,,sì
+,Manuale di autoformazione al colloquio d’aiuto,,,,sì
+AA. VV.,Follie della Ragione,,1983,,sì
+,Mostra fotografica,,,,sì
+Robert E. Hales,Psichiatria,The American Psychiatric Press,1997,,sì
+Stuart C. Yudofsky,Voll. 1 e 2,,,,sì
+John A. Talbott,,,,,sì
+A cura di,Disturbi schizofrenici,Masson,1994,,sì
+Paolo Pancheri,,,,,sì
+Hans Joachim Mallach,Alcolismo e alcologia,USES,1988,,sì
+Hanspeter Hartman,"Fisiopatologia, indagini diagnostiche, tossicologia, interazioni farmacologiche",,,,sì
+Volker Schmidt,,,,,sì
+Hans-Georg Gadamer,Dove si nasconde la salute,Raffaello Cortina Editore / Scienza e idee vol. 5,1994,,sì
+Mario Antonio Reda,Sistemi cognitivi complessi e psicoterapia,La Nuova Italia Scientifica,1991,,sì
+Ludwig Binswanger,La psichiatria come scienza dell’uomo,Ponte alle Grazie,1992,,sì
+AA. VV.,L’identità dello psichiatra,Il Pensiero Scientifico Editore,1982,,sì
+A cura di,,,,,sì
+Franco Giberti,,,,,sì
+Eugène Minkowski,Filosofia Semantica Psicopatologia,Mursia / Biblioteca di filosofia,1969,,sì
+Franz G. Alexander,Storia della psichiatria,Newton Compton Editori,1975,,sì
+Sheldon T. Selesnick,,,,,sì
+Paul Watzlawick,Change,Casa Editrice Astrolabio,1974,,sì
+John H. Weakland,Sulla formazione e la soluzione dei problemi,,,,sì
+Richard Fisch,,,,,sì
+Salvador Minuchin,Famiglie e terapia della famiglia,Casa Editrice Astrolabio,1976,,sì
+Carlo Lorenzo Cazzullo,Psichiatria,Micarelli Editore,19963,,sì
+,Voll. 3,,,,sì
+,(Copertina rigida e cofanetto),,,,sì
+A cura di,"Trattato di criminologia, medicina criminologica e psichiatria forense",Giuffrè Editore,1987-1991,,sì
+Franco Ferrucci,Voll. Da 1 a 17,,,,sì
+AA. VV.,EMC - Encyclopédie Médico-Chirurgicale,Editions Techniques,1990,,sì
+,Psychiatrie,,,,sì
+,Voll. 1-6,,,,sì
