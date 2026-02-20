@@ -1,7 +1,7 @@
 Autore,Titolo,Editore,Anno,Prezzo,Disponibile
 Jung,Opere  n°,Boringhieri,1991,,sì
 ,"1,2.1,2.2,3,4,5,6,7,8,9.1,9.2,10.1,10.2,11,12,13,14.1,14.2,15,16,17",,,,sì
-Anzieu,Il pensare (dall’io pelle all’io pensante),Borla,1996,,sì
+Anzieu,Il pensare (dall’io pelle all’io pensante),Borla,1996,,no
 Bernfeld,Per una biografia di Freud,Bollati Boringhieri,1991,,sì
 Finzi,Storia della psicoanalisi,Mondadori,1986,,sì
 Heidegger,Tempo ed essere,Guida editori,1980,,no
@@ -23,19 +23,19 @@ Freud,Psicoanalisi in 5 conferenze,Newton,1996,,sì
 Palmier,Guida a Lacan,Bur,1975,,sì
 Brome,Vita di Jung,Bollati Boringhieri,1994,,sì
 Zilboorg,Storia della psichiatria,Feltrinelli,1963,,sì
-Porter,Storia sociale della follia,Garzanti,1991,,sì
+Porter,Storia sociale della follia,Garzanti,1991,,no
 Paolo Legrenzi,Storia della psicologia,Mulino,1982,,sì
 Gross Kurth,Melanie Klein,Bollati Boringhieri,1988,,sì
 Galimberti,Linguaggio e civiltà,Mursia,1984,,no
-Gay,Freud,Bompiani,1988,,sì
+Gay,Freud,Bompiani,1988,,no
 Lacan,Il seminario,Einaudi,1985,,sì
 Salomè,Il mio ringraziamento a  Freud,Boringhieri,1984,,sì
 Appignanesi Zarate,Freud for beginners,Icon books,1998,,sì
 Hillman Boer,La cucina del dottor Freud,Raffaello cortina editore,1985,,sì
-Mauro Mancia,Super-io e ideale dell’io,Astrolabio,1990,,sì
-Mauro Mancia,Nello sguardo di Narciso,Laterza,1990,,sì
+Mauro Mancia,Super-io e ideale dell’io,Astrolabio,1990,,no
+Mauro Mancia,Nello sguardo di Narciso,Laterza,1990,,no
 Freud Salomè,Eros e conoscenza,Boringhieri,1984,,sì
-Kierkegaard,Il concetto dell’angoscia,Paravia,1971,,sì
+Kierkegaard,Il concetto dell’angoscia,Paravia,1971,,no
 Kaplan Sadoch,Disturbi dell’umore (x2),Centro scientifico internazionale,1996,,sì
 Smeraldi Bellodi,I disturbi d’ansia -clinica e terapia,Edi-Ermes,1987,,sì
 Smeraldi,I disturbi dell’umore – clinica e terapia (x2),Edi-Ermes,1993,,sì
@@ -130,8 +130,8 @@ Luborsky,Principi di psicoterapia psicoanalitica,Bollati Boringhieri,1989,,sì
 "Bella, Siracusano",Il consenso informato in psichiatria,Il pensiero scientifico editore,1996,,sì
 Carotenuto,Trattato di psicologia della personalità e delle differenze individuali,Raffaello Cortina editore,1991,,no
 Galimberti,Dizionario di psicologia,UTET,1992,,sì
-Langs,La tecnica della psicoterapia psicoanalitica,Boringhieri,1979,,sì
-Binswanger,Tre forme di esistenza mancata,Garzanti,1978,,sì
+Langs,La tecnica della psicoterapia psicoanalitica,Boringhieri,1979,,no
+Binswanger,Tre forme di esistenza mancata,Garzanti,1978,,no
 Freinet,L’apprendimento della scrittura,Editori Riuniti,1978,,sì
 Jhonson,Trattato di sociologia,Feltirnelli,1968,,sì
 "Polach, Sivadon-Sabourin",Il diritto alla follia,Feltrinelli,1977,,sì
@@ -156,7 +156,7 @@ Domenico M. Pisanelli,"Internet, Psichiatria e Neurologia",Il Pensiero Scientifi
 ,Medicina per le donne nel Cinquecento,Strenna UTET,1992,,sì
 Karl Jasper,Psicopatologia Generale,Il Pensiero Scientifico Editore,1982,,sì
 Rivista,N°15 Quaderni di psicoterapia infantile – Metodologia di valutazione di un servizio psichiatrico,Borla,1987,,sì
-J.B. Pontalis,L’Amore degli Inizi,Borla,1990,,sì
+J.B. Pontalis,L’Amore degli Inizi,Borla,1990,,no
 Karl Jaspers,Il medico nell’età della tecnica,Raffaello Cortina Editore,1991,,sì
 Emil Kraepelin,Memorie,ETS Editrice,1989,,sì
 -,Dizionario Italiano-Serbocroato / Serbocroato-Italiano,Antonio Vallardi Editore,1971,,sì
@@ -237,7 +237,7 @@ Richard Appignanesi,Freud for beginners,,1998,,sì
 Oscar Zarate,,,,,sì
 Freud,Psicoanalisi,Tascabili Economici Newton,1996,,sì
 ,Esposizione divulgativa in cinque conferenze,,,,sì
-Freud,Psicoanalisi dell’arte e della letteratura,Grandi Tascabili Economici Newton,1993,,sì
+Freud,Psicoanalisi dell’arte e della letteratura,Grandi Tascabili Economici Newton,1993,,no
 AA. VV.,Enciclopedia Medica Italiana,USES Edizioni Scientifiche,"1976, 78",,sì
 ,"Volumi 5, 6",,,,sì
 Silvano Arieti,Capire ed aiutare il paziente schizofrenico,Feltrinelli,1981,,sì
@@ -247,7 +247,7 @@ Alberto Gaston,Genealogia dell’alienazione,Feltrinelli / Campi del sapere,1987
 Umberto Galimberti,Gli equivoci dell’anima,Feltrinelli / Campi del sapere,1987,,sì
 Umberto Galimberti,Il corpo,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXIII,1984,,sì
 ,"Antropologia, psicoanalisi, fenomenologia",,,,sì
-Luigi De Marchi,Scimmietta ti amo,Longanesi,1984,,sì
+Luigi De Marchi,Scimmietta ti amo,Longanesi,1984,,no
 ,"Psicologia, cultura, esistenza: da Neanderthal agli scenari atomici",,,,sì
 Robert A. Hinde,Le basi biologiche del comportamento sociale umano,Zanichelli / Serie di Psicologia vol. VI,1982,,sì
 ,Studiare gli animali per comprendere l’uomo,,,,sì
@@ -258,7 +258,7 @@ Patrizia Selleri,Modelli teorici e contesti sociali,,,,sì
 Dolores David,,,,,sì
 A cura di,L’esperienza quotidiana,Franco Angeli Editore,1986,,sì
 F. Massimini e P. Inghilleri,Teoria e metodo d’analisi,,,,sì
-M. Selvini Palazzoli,Paradosso e controparadosso,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXXIII,1979,,sì
+M. Selvini Palazzoli,Paradosso e controparadosso,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXXIII,1979,,no
 L. Boscolo,Un nuovo modello nella terapia della famiglia a transazione schizofrenica,,,,sì
 G. Cecchin,,,,,sì
 G. Prata,,,,,sì
@@ -275,17 +275,17 @@ AA. VV.,Comprendre -,-,"1990, 1992",,sì
 ,The enigma of anorexia nervosa,,,,sì
 G. Contini,Lavorare con gli psicotici,Il Bagatto Editrice,1985,,sì
 E. Straticò,,,,,sì
-Thomas A. Harris,"Io sono ok, tu sei ok",BUR,1983,,sì
+Thomas A. Harris,"Io sono ok, tu sei ok",BUR,1983,,no
 ,Guida pratica all’analisi transazionale,,,,sì
-A cura di,Fenomenologia: filosofia e psichiatria,Masson,1984,,sì
+A cura di,Fenomenologia: filosofia e psichiatria,Masson,1984,,no
 C. L. Cazzullo,,,,,sì
 C. Sini,,,,,sì
 Guido Petter,Lo sviluppo mentale nelle ricerche di Jean Piaget,Giunti Barbèra,1984,,sì
 Franco Fornari,La vita affettiva originaria del bambino,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. IX,1980,,sì
-Franco Fornari,La lezione freudiana,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXIV,1983,,sì
+Franco Fornari,La lezione freudiana,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. LXXIV,1983,,no
 ,Per una nuova psicoanalisi,,,,sì
 Pierre Flor Henry,Basi cerebrali della psicopatologia,Borla,1990,,sì
-B. Callieri,Lineamenti di una psicopatologia fenomenologica,“Il Pensiero Scientifico” Editore,1972,,sì
+B. Callieri,Lineamenti di una psicopatologia fenomenologica,“Il Pensiero Scientifico” Editore,1972,,no
 A. Castellani,,,,,sì
 G. De Vincentiis,,,,,sì
 AA. VV.,Rivista Sperimentale di Freniatria e Medicina Legale delle Alienazioni Mentali,Numeri:,-,,sì
@@ -308,12 +308,12 @@ A cura di,Autismo Schizofrenico,,,,sì
 Annibale Salsa,,,,,sì
 Michele Schiavone,,,,,sì
 Gilberto Barbarito,Il processo penale nei confronti del minore: struttura e problemi attuali,in Prospettive in Pediatria n. 22 Aprile/Giugno 1976,-,,sì
-Ludwig Binswanger,Per un’antropologia fenomenologica,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXV,1970,,sì
-Donald Woods Winnicott,Frammento di un’analisi,“Il Pensiero Scientifico” Editore,1985,,sì
-Guglielmo Gulotta,La vittima,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. I,1976,,sì
-A cura di,Giudicando un minore,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. XV,1984,,sì
+Ludwig Binswanger,Per un’antropologia fenomenologica,Feltrinelli / Biblioteca di psichiatria e di psicologia clinica vol. XXV,1970,,no
+Donald Woods Winnicott,Frammento di un’analisi,“Il Pensiero Scientifico” Editore,1985,,no
+Guglielmo Gulotta,La vittima,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. I,1976,,no
+A cura di,Giudicando un minore,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. XV,1984,,no
 Luisella De Cataldo Neuburger,Miti e realtà della giustizia minorile,,,,sì
-A cura di,Dalla parte della vittima,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. V,1981,,sì
+A cura di,Dalla parte della vittima,Giuffrè Editore / Collana di Psicologia Giuridica e Criminale vol. V,1981,,no
 G. Gulotta,,,,,sì
 M. Vagaggini,,,,,sì
 A cura di,Infermità di mente e responsabilità civile,CEDAM,1993,,sì
@@ -339,7 +339,7 @@ M. Clerici,Disturbi alimentari e contesto psicosociale,Franco Angeli Editore,199
 F. Lugo,"Bulimia, anoressia e obesità in trattamento ospedaliero",,,,sì
 R. Papa,,,,,sì
 G. Penati,,,,,sì
-Bruno Bettelheim,La Vienna di Freud,Feltrinelli,1989,,sì
+Bruno Bettelheim,La Vienna di Freud,Feltrinelli,1989,,no
 Fascicoli incatalogabili,"Psicosi endogene depressive e maniacali - Hans Jorg Weitbrecht, Bonn",,,,sì
 ,"Clinica della schizofrenia - Jakob Wyrsch, Stans e Berna",,,,sì
 ,"Le psicosi atipiche e la dottrina di Kleist sulle psicosi endogene - Karl Leonhard, Berlino",,,,sì
@@ -464,8 +464,8 @@ Margherita Lang,,1226.3,,,sì
 AA. VV.,Psichiatria geriatrica,Masson Italia Editori,1981,,sì
 A. Carlo Altamura,Argomenti di Clinica e Farmacoterapia delle Psicosi Maggiori,McGraw-Hill,1996,,sì
 Edmond Gilliéron,Manuale di Psicoterapia Analitica Breve,Edizioni Universitarie Romane,1993,,sì
-Luigi Poiaga,Introduzione ai metodi quantitativi nelle scienze sociali,Edizioni Libreria Cortina,1975,,sì
-Ferdinando Barison,Il Rorschach fenomenologico,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1982,,sì
+Luigi Poiaga,Introduzione ai metodi quantitativi nelle scienze sociali,Edizioni Libreria Cortina,1975,,no
+Ferdinando Barison,Il Rorschach fenomenologico,Franco Angeli Editore / Collana di psicologia diretta da M. Cesa-Bianchi,1982,,no
 Dolores Passi Tognazzo,,,,,sì
 ,,1225.11,,,sì
 Gennie e Paul Lemone,Lo psicodramma,Feltrinelli / Psicologia e Psicanalisi,1977,,sì
@@ -473,7 +473,7 @@ Gennie e Paul Lemone,Lo psicodramma,Feltrinelli / Psicologia e Psicanalisi,1977,
 A. S. Roversi,Diagnostica e terapia,Edizioni mediche italiane,1994,,sì
 Edith Jacobson,La depressione,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1977,,sì
 ,"Studi comparativi degli stati normali, nevrotici e psicotici",,,,sì
-Hanna Segal,Introduzione all’opera di Melanie Klein,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1975,,sì
+Hanna Segal,Introduzione all’opera di Melanie Klein,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1975,,no
 Melanie Klein,La psicoanalisi dei bambini,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1970,,sì
 Melanie Klein,Il nostro mondo adulto e altri saggi,G. Martinelli Editore - Firenze / Psicoanalisi e Civiltà contemporanea,1972,,sì
 Hubertus Tellenbach,Melancolia,“Il Pensiero Scientifico” Editore / P. B. N.,1975,,sì
